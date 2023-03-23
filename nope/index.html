@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>NOPE</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--     <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+    <link rel="icon" type="image/png" href="images/enpc_logo.jpeg">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110862391-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-110862391-1');
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="container" id="main">
+        <div class="row">
+            <h2 class="col-md-12 text-center">
+                NOPE: Novel Object Pose Estimation from a Single Image</br>
+                <small>
+                    arXiv 2023
+                </small>
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://nv-nguyen.github.io/">
+                            Van Nguyen Nguyen<sup>1</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://imagine.enpc.fr/~groueixt/">
+                            Thibault Groueix<sup>2</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://yinlinhu.github.io/">
+                            Yinlin Hu<sup>3</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://people.epfl.ch/mathieu.salzmann">
+                            Mathieu Salzmann<sup>4</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://vincentlepetit.github.io/">
+                            Vincent Lepetit<sup>1</sup>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="list-inline">
+                    <li>
+                        <a href="http://imagine.enpc.fr/">
+                            <sup>1</sup>LIGM, Ecole des Ponts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://research.adobe.com/">
+                            <sup>2</sup>Adobe
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.magicleap.com/en-us/">
+                            <sup>3</sup>MagicLeap
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.epfl.ch/labs/cvlab/">
+                            <sup>4</sup>EPFL
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <ul class="nav nav-pills nav-justified">
+                    <li>
+                        <a href="https://arxiv.org/abs/2203.17234">
+                            <image src="images/nope_arxiv.png" height="60px">
+                                <h4><strong>Paper</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/nv-nguyen/nope">
+                            <image src="images/github.png" height="60px"><br>
+                                <h4><strong>Code</strong></h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Abstract
+                </h3>
+                <p class="text-justify">The practicality of 3D object pose estimation remains limited for many
+                    applications due to the need for prior knowledge of a 3D model and a training period for new
+                    objects. To address this limitation, we propose an approach that takes a single image of a new
+                    object as input and predicts the relative pose of this object in new images without prior knowledge
+                    of the object's 3D model and without requiring training time for new objects and categories. We
+                    achieve this by training a model to directly predict discriminative embeddings for viewpoints
+                    surrounding the object. This prediction is done using a simple U-Net architecture with attention and
+                    conditioned on the desired pose, which yields extremely fast inference. We compare our approach to
+                    state-of-the-art methods and show it outperforms them both in terms of accuracy and robustness.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Approach
+                </h3>
+                <image src="images/framework.png" class="img-responsive" alt="overview"><br>
+                    <p class="text-justify">
+                        <strong>Overview:</strong> During training, we train a U-Net to predict the embedding of a novel
+                        view of an object, given a reference image of the object and a relative pose. The U-Net is
+                        conditioned on an embedding of the relative pose computed using an MLP, which we train jointly
+                        with the U-Net. At inference, our method first takes as input a reference image of a new object
+                        and predicts the embeddings of views of the object under many relative poses. This inference
+                        takes around 1 second on a single GPU V100. Then, given a query image of the object, we first
+                        compute its embedding and match it against the set of predicted embeddings, which takes about
+                        0.2s. This gives us a distribution over the possible relative poses between the reference and
+                        query images. The maximum of the distribution corresponds to the predicted pose.
+                    </p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Results
+                </h3>
+                <div style="display: flex; justify-content: center;">
+                    <img src='images/result.gif' width="420" style="border: 1px solid black;">
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div style="text-align: center;">
+                <img src='images/result.png' width="720" ><br>
+                <br>
+            </div>
+            <div class="col-md-8 col-md-offset-2">
+                <p class="text-justify">
+                    <strong>Overview:</strong> Visual results on unseen categories from ShapeNet. An arrow indicates the pose with the highest probability as recovered by our method.
+                    We visually compare with <a href="https://github.com/nv-nguyen/pizza">PIZZA</a>, which is the method with the second best performance. <strong>We visualize the predicted poses by rendering the object from these poses,
+                    but the 3D model is only used for visualization purposes, not as input to our method.
+                    Similarly, we use the canonical pose of the 3D model to visualize this distribution, but not as input to our method.</strong>
+                    </p>
+                </div>
+            <div style="display: flex; justify-content: center;">
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Citation
+                </h3>
+                <div class="card">
+                    <div class="card-block">
+                        <pre class="card-text clickselect">
+@article{nguyen2023nope,
+  title={NOPE: Novel Object Pose Estimation from a Single Image},
+  author={Nguyen, Van Nguyen and Groueix, Thibault and Hu, Yinlin and Salzmann, Mathieu and Lepetit, Vincent},
+  journal={arXiv preprint arXiv:},
+  year={2023}}</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Acknowledgements
+                </h3>
+                <p class="text-justify">
+                    We thank Elliot Vincent, Mathis Petrovich and Nicolas Dufour for helpful discussions. This research was produced within the framework of Energy4Climate Interdisciplinary
+                    Center (E4C) of IP Paris and Ecole des Ponts ParisTech, and was supported by 3rd Programme d’Investissements d’Avenir [ANR18-EUR-0006-02] and by the Foundation of Ecole polytechnique
+                    (Chaire “Defis Technologiques pour une Energie Responsable” financed by TotalEnergies). This work was performed using HPC resources from GENCI–IDRIS 2022-AD011012294R2.
+                </p>
+            </div>
+        </div>
+    </div>
+    <tr>
+        <td>
+            <br>
+            <p align="center">
+                <font size="2">
+                    This website takes the template from <a href="https://bmild.github.io/">Ben Mildenhall</a> and <a
+                        href="http://mgharbi.com/">Michaël Gharbi</a>.
+                </font>
+
+            </p>
+        </td>
+    </tr>
+</body>
+
+</html>
