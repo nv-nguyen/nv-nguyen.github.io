@@ -30,7 +30,7 @@
               <p style="text-align:center">
                 <name>Van Nguyen NGUYEN</name>
               </p>
-              I am a third-year PhD student at <a href="http://imagine.enpc.fr/">IMAGINE team</a>, <a href="http://www.enpc.fr/">École des Ponts ParisTech</a>, under the supervision of <a href="https://vincentlepetit.github.io/">Prof. Vincent Lepetit</a>. I also work closely with <a href="https://people.epfl.ch/mathieu.salzmann">Dr. Mathieu Salzmann</a>.
+              I am a third-year PhD student at <a href="http://imagine.enpc.fr/">IMAGINE team</a>, <a href="http://www.enpc.fr/">École des Ponts ParisTech</a>, advised by <a href="https://vincentlepetit.github.io/">Prof. Vincent Lepetit</a>. I also work closely with <a href="https://people.epfl.ch/mathieu.salzmann">Dr. Mathieu Salzmann</a> and <a href="http://imagine.enpc.fr/~groueixt/">Dr. Thibault Groueix</a>.
               </p>
               <p>
               I graduated from the Master <a href="http://math.ens-paris-saclay.fr/version-francaise/formations/master-mva/contenus-/master-mva-cours-161721.kjsp?RH=1242430202531">Mathématiques, Vision and Apprentissage (MVA)</a>  from  <a href="https://ens-paris-saclay.fr/en">École Normale Supérieure Paris-Saclay</a> and Engineering Program in Applied Mathematics at <a href="https://www.insa-toulouse.fr/en/index.html">INSA Toulouse</a>. I also had chance to spend time with great teams at <a href="https://about.facebook.com/realitylabs/">Meta Reality Labs</a>, <a href="https://www.epfl.ch/labs/cvlab/">EPFL</a>, <a href="https://www.siemens.com/global/en.html">SIEMENS</a>.
@@ -56,6 +56,10 @@
               <heading>News</heading>
                <hr/>
               <ul>
+       <li>
+          <b style="background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);">07/ 2023</b>&emsp;
+           Our work CNOS is available on <a href="http://arxiv.org/abs/2307.11067">arXiv</a> and <a href="https://github.com/nv-nguyen/cnos">github</a>. CNOS has been used as a baseline for <a href="https://bop.felk.cvut.cz/challenges/bop-challenge-2023/">BOP challenge</a>.
+       </li>
        <li>
           <b style="background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);">06/ 2023</b>&emsp;
            I am co-organizing <a href="https://bop.felk.cvut.cz/challenges/bop-challenge-2023/">BOP challenge 2023</a>!
@@ -111,14 +115,48 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div style="display: flex; justify-content: center;">
+                <img src='images/cnos_ycb_pred.gif' width="160" border="1">
+              </div>
+
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>CNOS: A Strong Baseline for CAD-based Novel Object Segmentation</papertitle>
+
+              </br>
+              A method that can segment novel objects for a given RGB image from only their CAD models. Based on Segmenting Anything, DINOv2, CNOS is strong baseline for Task 5 and 6 in BOP challenge 2023</a>.
+              </br>
+              </br>
+              <strong>Van Nguyen Nguyen</strong>,
+                <a href="https://cmp.felk.cvut.cz/~hodanto2/">Tomáš Hodaň</a>,
+                <a href="https://ponimatkin.github.io/">Georgy Ponimatkin</a>,
+                <a href="http://imagine.enpc.fr/~groueixt/">Thibault Groueix</a>,
+                <a href="https://vincentlepetit.github.io/">Vincent Lepetit</a>
+              </br>
+              <em>arXiv</em>, 2023
+              </br>
+              <a href="https://arxiv.org/pdf/2307.11067.pdf">arXiv</a> /
+              <a href="https://github.com/nv-nguyen/cnos">github</a> /
+              <a href="data/Nguyen_Cnos23.bib">bibtex</a>  &nbsp
+              <p>
+                <a class="github-button" href="https://github.com/nv-nguyen/cnos"
+                  data-icon="octicon-star" data-show-count="true"
+                  aria-label="Star nv-nguyen/nope on GitHub">Star</a>
+                <a class="github-button" href="https://github.com/nv-nguyen/cnos/fork"
+                  data-icon="octicon-repo-forked" data-show-count="true"
+                  aria-label="Fork nv-nguyen/nope on GitHub">Fork</a>
+                </p>
+              </br>
+            </td>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div style="display: flex; justify-content: center;">
                 <img src='images/nope.gif' width="160" border="1">
               </div>
 
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://nv-nguyen.github.io/nope">
-                <papertitle>NOPE: Novel Object Pose Estimation from a Single Image</papertitle>
-              </a>
+              <papertitle>NOPE: Novel Object Pose Estimation from a Single Image</papertitle>
+
               </br>
               A method that can estimate relative pose of unseen objects given only a single reference image. Our method also predicts 3D pose distribution which can be used to address pose ambiguities due to symmetries.
               </br>
@@ -194,9 +232,8 @@
 
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://nv-nguyen.github.io/template-pose">
-                <papertitle>Templates for 3D Object Pose Estimation Revisited: Generalization to New Objects and Robustness to Occlusions</papertitle>
-              </a>
+              <papertitle>Templates for 3D Object Pose Estimation Revisited: Generalization to New Objects and Robustness to Occlusions</papertitle>
+
               </br>
               A method that can recognize objects and estimate their 3D pose in color images even under partial occlusions. Our method requires neither a training phase on these objects nor real images depicting them, only their CAD models.
               </br>
@@ -262,6 +299,9 @@
                 <a class="github-button" href="https://github.com/nv-nguyen/bop_viz_kit"
                   data-icon="octicon-star" data-show-count="true"
                   aria-label="Star nv-nguyen/bop_viz_kit on GitHub">bop_viz_kit</a>
+                <a class="github-button" href="https://github.com/nv-nguyen/cnos"
+                  data-icon="octicon-star" data-show-count="true"
+                  aria-label="Star nv-nguyen/cnos on GitHub">cnos</a>
                 <a class="github-button" href="https://github.com/YoungXIAO13/ObjectPoseEstimationSummary"
                   data-icon="octicon-star" data-show-count="true"
                   aria-label="Star YoungXIAO13/ObjectPoseEstimationSummary on GitHub">ObjectPoseSummary</a>
@@ -274,7 +314,7 @@
         <td>
         <br>
         <p align="right"><font size="2">
-          This website takes the template from <a href="https://xishen0220.github.io/">Xi Shen</a> and <a href="https://jonbarron.info/">Jon Barron</a>.
+          This website takes the template from  <a href="https://jonbarron.info/">Jon Barron</a>.
         </font>
 
       </td>
