@@ -129,3 +129,38 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+.btn-primary:hover {
+  background: #915d46;
+}
+.btn-primary {
+  color: #915d46;
+  /* background-color: #e7e1e1; nice light green (178, 215, 195, 0.523);*/
+  background-color: #a0b3d38a; 
+  text-decoration: none;
+}
+
+.custom-button {
+  display: inline-block;
+  padding: 1px 5px;
+  margin-right: 5px;
+  background-color: #33A1FD;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 20px; /* Adjust for rounded corners */
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px; /* Adjust as needed */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+  transition: background-color 0.3s, transform 0.3s; /* Transition effects for hover */
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
+
+.spacer {
+  margin-bottom: 0.3em;
+}
+
