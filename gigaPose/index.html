@@ -29,7 +29,8 @@
   <link rel="stylesheet" href="../static/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="../static/css/index.css">
-  <link rel="icon" href="../static/images/favicon.svg">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="../static/js/fontawesome.all.min.js"></script>
@@ -119,10 +120,8 @@
               Our approach samples templates in only a two-degrees-of-freedom space instead of the usual three and
               matches the input image to the templates using fast nearest neighbor search in feature space, results in a
               speedup factor of 38x compared to the state of the art. Moreover, GigaPose is significantly more robust to
-              segmentation errors.
-            </p>
-            <p>
-              Our extensive evaluation on the seven core datasets of the BOP challenge demonstrates that it achieves
+              segmentation errors. Our extensive evaluation on the seven core datasets of the BOP challenge demonstrates
+              that it achieves
               state-of-the-art accuracy and can be seamlessly integrated with a refinement method.
             </p>
             <p>
@@ -138,14 +137,12 @@
 
       <!-- Paper video. -->
       <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Video</h2>
-          <div class="publication-video">
-            <iframe src="https://www.youtube.com/embed/e-Yoo4Y59Lk?si=JfRZ0a3j2ljxbrMJ" frameborder="0"
-              allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
+        <video class="video-border" width="1280" height="720" controls>
+          <source src="../images/gigaPose.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+    </div>
+    
       <!--/ Paper video. -->
     </div>
   </section>
