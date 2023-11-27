@@ -1,4 +1,3 @@
-# nv-nguyen.github.io
-Welcome to my personal webpage!
+[nv-nguyen.github.io](https://nv-nguyen.github.io/)
 
-The template is borrowed heavily from [Xi Shen](https://github.com/XiSHEN0220) and [Jon Barron](https://github.com/jonbarron/website).
+The template is borrowed heavily from [Jon Barron](https://github.com/jonbarron/website).

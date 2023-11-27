@@ -105,6 +105,50 @@
     </div>
   </section>
 
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              We present GigaPose, a fast, robust, and accurate method for CAD-based novel object pose estimation in RGB
+              images. GigaPose first leverages discriminative templates, rendered images of the CAD models, to recover
+              the out-of-plane rotation and then uses patch correspondences to estimate the four remaining parameters.
+              Our approach samples templates in only a two-degrees-of-freedom space instead of the usual three and
+              matches the input image to the templates using fast nearest neighbor search in feature space, results in a
+              speedup factor of 38x compared to the state of the art. Moreover, GigaPose is significantly more robust to
+              segmentation errors.
+            </p>
+            <p>
+              Our extensive evaluation on the seven core datasets of the BOP challenge demonstrates that it achieves
+              state-of-the-art accuracy and can be seamlessly integrated with a refinement method.
+            </p>
+            <p>
+              Additionally, we show the potential of GigaPose with 3D models predicted by recent work on 3D
+              reconstruction from a single image, relaxing the need for CAD models and making 6D pose object estimation
+              much more convenient.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+
+      <!-- Paper video. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Video</h2>
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/watch?v=e-Yoo4Y59Lk&ab_channel=VanNguyenNguyen" frameborder="0"
+              allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <!--/ Paper video. -->
+    </div>
+  </section>
+
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
