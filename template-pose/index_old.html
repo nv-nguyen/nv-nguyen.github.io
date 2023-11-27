@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Template Pose</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--     <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+    <link rel="icon" type="image/png" href="images/enpc_logo.jpeg">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110862391-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-110862391-1');
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="container" id="main">
+        <div class="row">
+            <h2 class="col-md-12 text-center">
+                Templates for 3D Object Pose Estimation Revisited: <br>
+                Generalization to New Objects and Robustness to Occlusions</br>
+                <small>
+                    CVPR 2022
+                </small>
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://nv-nguyen.github.io/">
+                            Van Nguyen Nguyen<sup>1</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://yinlinhu.github.io/">
+                            Yinlin Hu<sup>2</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://youngxiao13.github.io/">
+                            Yang Xiao<sup>1</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://people.epfl.ch/mathieu.salzmann">
+                            Mathieu Salzmann<sup>2</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://vincentlepetit.github.io/">
+                            Vincent Lepetit<sup>1</sup>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="list-inline">
+                    <li>
+                        <a href="http://imagine.enpc.fr/">
+                            <sup>1</sup>LIGM, Ecole des Ponts, Univ Gustave Eiffel, CNRS, France
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.epfl.ch/labs/cvlab/">
+                            <sup>2</sup>CVLab, EPFL, Switzerland
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <ul class="nav nav-pills nav-justified">
+                    <li>
+                        <a href="https://arxiv.org/abs/2203.17234">
+                            <image src="images/template-arxiv.png" height="60px">
+                                <h4><strong>Paper</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/nv-nguyen/template-pose">
+                            <image src="images/github.png" height="60px"><br>
+                                <h4><strong>Code</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1AofrYpF2kv6gi_JQd3WNUk-VJr1lfb-g/view?usp=sharing">
+                            <image src="images/poster.png" height="60px"><br>
+                                <h4><strong>Poster</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1IPqb60-mGzi34BGaLyXihLcR3f3Yhcwl/view?usp=sharing">
+                            <image src="images/slide.png" height="60px"><br>
+                                <h4><strong>Slide</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <image src="images/youtube.png" height="60px"><br>
+                                <h4><strong>Video</strong></h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Abstract
+                </h3>
+                <p class="text-justify">We present a method that can recognize new objects and estimate their 3D pose in
+                    RGB images even under partial occlusions. Our method requires neither a training phase on these
+                    objects nor real images depicting them, only their CAD models. It relies on a small set of training
+                    objects to learn local object representations, which allow us to locally match the input image to a
+                    set of “templates”, rendered images of the CAD models for the new objects. In contrast with the
+                    state-of-the-art methods, the new objects on which our method is applied can be very different from
+                    the training objects. As a result, we are the first to show generalization without retraining on the
+                    LINEMOD and Occlusion-LINEMOD datasets. Our analysis of the failure modes of previous template-based
+                    approaches further confirms the benefits of local features for template matching. We outperform the
+                    state-of-the-art template matching methods on the LINEMOD, Occlusion-LINEMOD and T-LESS datasets.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Approach
+                </h3>
+                <image src="images/teaser.png" class="img-responsive" alt="overview"><br>
+                    <p class="text-justify">
+                        <strong>Summary:</strong> We use contrastive learning to compute local features, from which the
+                        similarity between a real image and a synthetic template can be predicted. We also introduce a
+                        new similarity measure that explicitly takes into account the object’s mask in the template and
+                        the possible occlusions in the query image. We show experimentally that our method, based on
+                        local feature, has much better properties and can be made robust to occlusions.
+                    </p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Results
+                </h3>
+                <image src="images/results.png" class="img-responsive" alt="results"><br>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Citation
+                </h3>
+                <div class="card">
+                    <div class="card-block">
+                        <pre class="card-text clickselect">
+@inproceedings{nguyen2022templates,
+  title={Templates for 3D Object Pose Estimation Revisited: Generalization to New Objects and Robustness to Occlusions},
+  author={Nguyen, Van Nguyen and Hu, Yinlin and Xiao, Yang and Salzmann, Mathieu and Lepetit, Vincent},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={6771--6780},
+  year={2022}}</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Acknowledgements
+                </h3>
+                <p class="text-justify">
+                    We thank Michaël Ramamonjisoa, Tom Monnier, Elliot Vincent and Romain Loiseau for valuable feedback.
+                    This research was produced within the framework of Energy4Climate Interdisciplinary Center (E4C) of
+                    IP Paris and Ecole des Ponts ParisTech. This research was supported by 3rd Programme
+                    d’Investissements d’Avenir [ANR-18-EUR-0006-02]. This action benefited from the support of the Chair
+                    “Challenging Technology for Responsible Energy" led by l’X – Ecole polytechnique and the Fondation
+                    de l’Ecole polytechnique, sponsored by TOTAL. This work has received funding from the CHISTERA IPALM
+                    project and was performed using HPC resources from GENCI–IDRIS 2021-AD011012294R1.
+                </p>
+            </div>
+        </div>
+    </div>
+    <tr>
+        <td>
+            <br>
+            <p align="center">
+                <font size="2">
+                    This website takes the template from <a href="https://bmild.github.io/">Ben Mildenhall</a> and <a
+                        href="http://mgharbi.com/">Michaël Gharbi</a>.
+                </font>
+
+            </p>
+        </td>
+    </tr>
+</body>
+
+</html>
