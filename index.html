@@ -192,7 +192,7 @@
                           <a href="https://people.epfl.ch/mathieu.salzmann">Mathieu Salzmann</a>,
                           <a href="https://vincentlepetit.github.io/">Vincent Lepetit</a>
                           <div class="spacer"></div>
-                          <em>arXiv</em>, 2023
+                          <em>CVPR</em>, 2024
                           <div class="spacer"></div>
                           <a href="https://nv-nguyen.github.io/gigaPose" class="custom-button">project
                             page</a>
@@ -201,13 +201,13 @@
                           <button id="toggleGigaPoseBibtex" style="cursor: pointer;" class="custom-button">show
                             bibtex</button>
                           <div id="gigaPoseBibtex" class="bibtex-box" style="display: none; margin-top: 10px;">
-                            @article{nguyen2023gigaPose,<br>
-                            &nbsp;title={GigaPose: Fast and Robust Novel Object Pose Estimation via One
+                            @inproceedings{nguyen2024gigaPose,<br>
+                            &nbsp;&nbsp;title={GigaPose: Fast and Robust Novel Object Pose Estimation via One
                             Correspondence},<br>
-                            &nbsp;author={Nguyen, Van Nguyen and Groueix, Thibault and Salzmann, Mathieu and Lepetit,
+                            &nbsp;&nbsp;author={Nguyen, Van Nguyen and Groueix, Thibault and Salzmann, Mathieu and Lepetit,
                             Vincent},<br>
-                            &nbsp;journal={arXiv preprint arXiv:2311.14155},<br>
-                            &nbsp;year={2023}<br>
+                            &nbsp;&nbsp;booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},<br>
+                            &nbsp;&nbsp;year={2024}<br>
                             }
 
                           </div>
@@ -236,6 +236,72 @@
                       }
                     });
                   </script>
+
+                  <table
+                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                        <tbody>
+                          <td style="padding:20px;width:25%;vertical-align:top"> <!-- changed alignment to top -->
+                            <div style="display: flex; justify-content: center;">
+                              <img src='images/nope.gif' width="160" border="1">
+                            </div>
+                          </td>
+                          <td style="padding:10px;width:75%;vertical-align:middle">
+                            <papertitle>NOPE: Novel Object Pose Estimation from a Single Image</papertitle>
+                            </br>
+                            A method that can estimate relative pose of unseen objects given only a single reference
+                            image. Our method also predicts 3D pose distribution which can be used to address pose
+                            ambiguities due to symmetries.
+                            <div class="spacer"></div>
+                            <strong>Van Nguyen Nguyen</strong>,
+                            <a href="http://imagine.enpc.fr/~groueixt/">Thibault Groueix</a>,
+                            <a href="https://ponimatkin.github.io/">Georgy Ponimatkin</a>,
+                            <a href="https://yinlinhu.github.io/">Yinlin Hu</a>,
+                            <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>,
+                            <a href="https://people.epfl.ch/mathieu.salzmann">Mathieu Salzmann</a>,
+                            <a href="https://vincentlepetit.github.io/">Vincent Lepetit</a>
+                            <div class="spacer"></div>
+                            <em>CVPR</em>, 2024
+                            <div class="spacer"></div>
+
+                            <a href="https://nv-nguyen.github.io/nope" class="custom-button">project page</a>
+                            <a href="https://arxiv.org/pdf/2303.13612.pdf" class="custom-button">arXiv</a>
+                            <a href="https://github.com/nv-nguyen/nope" class="custom-button">github</a>
+                            <button id="toggleNopeBibtex" style="cursor: pointer;" class="custom-button">show
+                              bibtex</button>
+                            <div id="nopeBibtex" class="bibtex-box" style="display: none; margin-top: 10px;">
+                              @inproceedings{nguyen2024nope,<br>
+                              &nbsp;title={NOPE: Novel Object Pose Estimation from a Single Image},<br>
+                              &nbsp;author={Nguyen, Van Nguyen and Groueix, Thibault and Hu, Yinlin and Salzmann,
+                              Mathieu
+                              and Lepetit, Vincent},<br>
+                              &nbsp;booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},<br>
+                            &nbsp; &nbsp;year={2024}<br>
+                              }
+
+                            </div>
+                            <p>
+                              <a class="github-button" href="https://github.com/nv-nguyen/nope" data-icon="octicon-star"
+                                data-show-count="true" aria-label="Star nv-nguyen/nope on GitHub">Star</a>
+                              <a class="github-button" href="https://github.com/nv-nguyen/nope/fork"
+                                data-icon="octicon-repo-forked" data-show-count="true"
+                                aria-label="Fork nv-nguyen/nope on GitHub">Fork</a>
+                            </p>
+                          </td>
+                        </tbody>
+                      </table>
+
+                      <script>
+                        document.getElementById("toggleNopeBibtex").addEventListener("click", function () {
+                          const bibtexContent = document.getElementById("nopeBibtex");
+                          if (bibtexContent.style.display === "none") {
+                            bibtexContent.style.display = "block";
+                            this.textContent = "hide bibtex";
+                          } else {
+                            bibtexContent.style.display = "none";
+                            this.textContent = "show bibtex";
+                          }
+                        });
+                      </script>
 
                   <table
                     style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -299,70 +365,6 @@
                       <script>
                         document.getElementById("toggleCnosBibtex").addEventListener("click", function () {
                           const bibtexContent = document.getElementById("cnosBibtex");
-                          if (bibtexContent.style.display === "none") {
-                            bibtexContent.style.display = "block";
-                            this.textContent = "hide bibtex";
-                          } else {
-                            bibtexContent.style.display = "none";
-                            this.textContent = "show bibtex";
-                          }
-                        });
-                      </script>
-
-                      <table
-                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                          <td style="padding:20px;width:25%;vertical-align:top"> <!-- changed alignment to top -->
-                            <div style="display: flex; justify-content: center;">
-                              <img src='images/nope.gif' width="160" border="1">
-                            </div>
-                          </td>
-                          <td style="padding:10px;width:75%;vertical-align:middle">
-                            <papertitle>NOPE: Novel Object Pose Estimation from a Single Image</papertitle>
-                            </br>
-                            A method that can estimate relative pose of unseen objects given only a single reference
-                            image. Our method also predicts 3D pose distribution which can be used to address pose
-                            ambiguities due to symmetries.
-                            <div class="spacer"></div>
-                            <strong>Van Nguyen Nguyen</strong>,
-                            <a href="http://imagine.enpc.fr/~groueixt/">Thibault Groueix</a>,
-                            <a href="https://yinlinhu.github.io/">Yinlin Hu</a>,
-                            <a href="https://people.epfl.ch/mathieu.salzmann">Mathieu Salzmann</a>,
-                            <a href="https://vincentlepetit.github.io/">Vincent Lepetit</a>
-                            <div class="spacer"></div>
-                            <em>arXiv</em>, 2023
-                            <div class="spacer"></div>
-
-                            <a href="https://nv-nguyen.github.io/nope" class="custom-button">project page</a>
-                            <a href="https://arxiv.org/pdf/2303.13612.pdf" class="custom-button">arXiv</a>
-                            <a href="https://github.com/nv-nguyen/nope" class="custom-button">github</a>
-                            <button id="toggleNopeBibtex" style="cursor: pointer;" class="custom-button">show
-                              bibtex</button>
-                            <div id="nopeBibtex" class="bibtex-box" style="display: none; margin-top: 10px;">
-                              @article{nguyen_2023_nope,<br>
-                              &nbsp;title={NOPE: Novel Object Pose Estimation from a Single Image},<br>
-                              &nbsp;author={Nguyen, Van Nguyen and Groueix, Thibault and Hu, Yinlin and Salzmann,
-                              Mathieu
-                              and Lepetit, Vincent},<br>
-                              &nbsp;journal={arXiv preprint arXiv:2303.13612},<br>
-                              &nbsp;year={2023}<br>
-                              }
-
-                            </div>
-                            <p>
-                              <a class="github-button" href="https://github.com/nv-nguyen/nope" data-icon="octicon-star"
-                                data-show-count="true" aria-label="Star nv-nguyen/nope on GitHub">Star</a>
-                              <a class="github-button" href="https://github.com/nv-nguyen/nope/fork"
-                                data-icon="octicon-repo-forked" data-show-count="true"
-                                aria-label="Fork nv-nguyen/nope on GitHub">Fork</a>
-                            </p>
-                          </td>
-                        </tbody>
-                      </table>
-
-                      <script>
-                        document.getElementById("toggleNopeBibtex").addEventListener("click", function () {
-                          const bibtexContent = document.getElementById("nopeBibtex");
                           if (bibtexContent.style.display === "none") {
                             bibtexContent.style.display = "block";
                             this.textContent = "hide bibtex";
@@ -550,7 +552,7 @@
                               <table width="100%" align="center" border="0" cellpadding="20">
                                 <tbody>
                                   <strong>Reviewer</strong>: CVPR (2024 2023 2022), ICCV (2023), ECCV
-                                  (2022), 3DV (2024), TPAMI (2022), BMVC (2021). </p>
+                                  (2022 2024), 3DV (2024), TPAMI (2022), BMVC (2021). </p>
                                   <strong>Teaching</strong>: <a
                                     href="http://gede.enpc.fr/programme/fiche.aspx?param=M:TRIVA">Image
                                     Processing
@@ -589,7 +591,7 @@
                                     <br>
                                     <p align="right">
                                       <font size="2">
-                                        Last update: 11/2023. This website takes the template from <a
+                                        Last update: 02/2024. This website takes the template from <a
                                           href="https://jonbarron.info/">Jon
                                           Barron</a>.
                                       </font>
