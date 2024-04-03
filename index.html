@@ -80,8 +80,16 @@
                   <hr />
                   <ul>
                     <li>
+                      <b style="background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);">04/ 2024</b>&emsp;
+                      Accepted to <a href="https://cvpr.thecvf.com/Conferences/2024/CallForDoctoralConsortium" >CVPR 2024 Doctoral Consortium</a>!
+                    </li>
+                    <li>
+                      <b style="background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);">04/ 2024</b>&emsp;
+                      <a TODO >BOP challenge 2023 report</a> is out and accepted to CVPRW 2024!
+                    </li>
+                    <li>
                       <b style="background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);">02/ 2024</b>&emsp;
-                      Our papers <a href="http://arxiv.org/abs/2311.14155"> GigaPose</a> and <a href="https://arxiv.org/abs/2303.13612">NOPE</a> are accepted to CVPR 2024.
+                      Our papers <a href="TODO">OSV5M</a>, <a href="http://arxiv.org/abs/2311.14155"> GigaPose</a>, and <a href="https://arxiv.org/abs/2303.13612">NOPE</a> are accepted to CVPR 2024. Many thanks to all my co-authors!
                     </li>
                     <li>
                       <b style="background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);">08/
@@ -161,6 +169,59 @@
                 style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                 <tbody>
 
+                <table
+                    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                    <tbody>
+                      <tr>
+                        <td style="padding:10px;width:25%;vertical-align:top"> <!-- changed alignment to top -->
+                          <div style="display: flex; justify-content: center;">
+                            <img src='images/bop23.png' width="160" border="0">
+                          </div>
+                        </td>
+                        <td style="padding:10px;width:75%;vertical-align:middle">
+                          <papertitle>BOP Challenge 2023 on Detection, Segmentation and Pose Estimation of Seen and Unseen Rigid Objects
+                          </papertitle>
+                          <br>
+                            <i> The report of BOP challenge 2023 on state-of-the-art methods for seen and unseen object pose estimation.</i>
+                          <div class="spacer"></div>
+                          Tomas Hodan, Martin Sundermeyer, Yann Labbé, <strong>Van Nguyen Nguyen</strong>, Gu Wang, Eric Brachmann, Bertram Drost, Vincent Lepetit, Carsten Rother, Jiri Matas
+                          <div class="spacer"></div>
+                          <em>CVPR Mixed Reality Workshop</em>, 2024
+                          <div class="spacer"></div>
+                          <a href="https://bop.felk.cvut.cz/" class="custom-button">project page</a>
+                          <a href="https://arxiv.org/pdf/2403.09799.pdf" class="custom-button">arXiv</a>
+                          <button id="toggleBOP23Bibtex" style="cursor: pointer;" class="custom-button">show
+                            bibtex</button>
+                          <div id="BOP23Bibtex" class="bibtex-box" style="display: none; margin-top: 10px;">
+                            @inproceedings{hodan2023bop,<br>
+                            &nbsp;&nbsp;title={{BOP Challenge 2023 on Detection, Segmentation and Pose Estimation of Seen and Unseen Rigid Objects}},<br>
+                            &nbsp;&nbsp;author={Hodan, Tomas and Sundermeyer, Martin and Labb{\'e}, Yann and Nguyen, Van Nguyen and Wang, Gu and Brachmann, Eric and Drost, Bertram and Lepetit, Vincent and Rother, Carsten and Matas, Jiri},<br>
+                            &nbsp;&nbsp;booktitle={{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}},<br>
+                            &nbsp;&nbsp;year={2024}<br>
+                            }
+
+                          </div>
+                        </td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+
+                  <script>
+                    document.getElementById("toggleBOP23Bibtex").addEventListener("click", function () {
+                      const bibtexContent = document.getElementById("BOP23Bibtex");
+                      if (bibtexContent.style.display === "none") {
+                        bibtexContent.style.display = "block";
+                        this.textContent = "hide bibtex";
+                      } else {
+                        bibtexContent.style.display = "none";
+                        this.textContent = "show bibtex";
+                      }
+                    });
+                  </script>
+
+                  <div class="spacer" style="height: 0.3cm;"></div>
+
                   <table
                     style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                     <tbody>
@@ -174,9 +235,8 @@
                           <papertitle>GigaPose: Fast and Robust Novel Object Pose Estimation via One Correspondence
                           </papertitle>
                           <br>
-                          A "hybrid" template-patch correspondence approach that is fast, robust, and more accurate to
-                          estimate 6D pose of novel objects in RGB images. GigaPose predicts 6D object pose from a
-                          single 2D-to-2D correspondence.
+                            <i> A "hybrid" template-patch correspondence approach that is fast, robust, and more accurate to
+                            estimate 6D pose of novel objects in RGB images. GigaPose predicts 6D object pose from a single 2D-to-2D correspondence.</i> 
                           <div class="spacer"></div>
                           <strong>Van Nguyen Nguyen</strong>,
                           <a href="http://imagine.enpc.fr/~groueixt/">Thibault Groueix</a>,
@@ -239,9 +299,10 @@
                           <td style="padding:10px;width:75%;vertical-align:middle">
                             <papertitle>NOPE: Novel Object Pose Estimation from a Single Image</papertitle>
                             </br>
-                            A method that can estimate relative pose of unseen objects given only a single reference
-                            image. Our method also predicts 3D pose distribution which can be used to address pose
-                            ambiguities due to symmetries.
+                            <i> A method that can estimate relative pose of unseen objects given only a single reference
+                              image. Our method also predicts 3D pose distribution which can be used to address pose
+                              ambiguities due to symmetries.</i> 
+                            
                             <div class="spacer"></div>
                             <strong>Van Nguyen Nguyen</strong>,
                             <a href="http://imagine.enpc.fr/~groueixt/">Thibault Groueix</a>,
@@ -292,7 +353,67 @@
                         });
                       </script>
 
+                  <table
+                style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                <tbody>
 
+                <table
+                    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                    <tbody>
+                      <tr>
+                        <td style="padding:10px;width:25%;vertical-align:top"> <!-- changed alignment to top -->
+                          <div style="display: flex; justify-content: center;">
+                            <img src='images/osv5m.png' width="160" border="1">
+                          </div>
+                        </td>
+                        <td style="padding:10px;width:75%;vertical-align:middle">
+                          <papertitle>OpenStreetView-5M: The Many Roads to Global Visual Geolocation
+                          </papertitle>
+                          <br>
+                          <i> A new benchmark for visual geolocation (~Geoguessr game).</i>
+                          <div class="spacer"></div>
+                          Guillaume Astruc, Nicolas Dufour, Ioannis Siglidis, Constantin Aronssohn, Nacim Bouia, Stephanie Fu, Romain Loiseau, <strong>Van Nguyen Nguyen</strong>, Charles Raude, Elliot Vincent, Lintao Xu, Hongyu Zhou, Loic Landrieu
+                          <div class="spacer"></div>
+                          <em>CVPR</em>, 2024
+                          <div class="spacer"></div>
+                          <a href="TODO" class="custom-button">arXiv</a>
+                          <a href="https://github.com/gastruc/osv5m" class="custom-button">github</a>
+                          <button id="toggleOSVBibtex" style="cursor: pointer;" class="custom-button">show
+                              bibtex</button>
+                            <div id="OSVBibtex" class="bibtex-box" style="display: none; margin-top: 10px;">
+                              @inproceedings{astruc2024osv,<br>
+                              &nbsp;title={{OpenStreetView-5M: The Many Roads to Global Visual Geolocation}},<br>
+                              &nbsp;author={Astruc, Guillaume and Dufour, Nicolas and Siglidis, Ioannis and Aronssohn, Constantin and Bouia, Nacim and Fu, Stephanie and Loiseau, Romain and Nguyen, Van Nguyen and Raude, Charles and Vincent, Elliot and Xu, Lintao and Zhou, Hongyu and Landrieu, Loic},<br>
+                              &nbsp;booktitle={{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}},<br>
+                            &nbsp; &nbsp;year={2024}<br>
+                              }
+
+                            </div>
+                          <p>
+                            <a class="github-button" href="https://github.com/gastruc/osv5m"
+                              data-icon="octicon-star" data-show-count="true"
+                              aria-label="Star ngastruc/osv5m on GitHub">Star</a>
+                            <a class="github-button" href="https://github.com/gastruc/osv5m/fork"
+                              data-icon="octicon-repo-forked" data-show-count="true"
+                              aria-label="Fork gastruc/osv5m on GitHub">Fork</a>
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                <script>
+                        document.getElementById("toggleOSVBibtex").addEventListener("click", function () {
+                          const bibtexContent = document.getElementById("OSVBibtex");
+                          if (bibtexContent.style.display === "none") {
+                            bibtexContent.style.display = "block";
+                            this.textContent = "hide bibtex";
+                          } else {
+                            bibtexContent.style.display = "none";
+                            this.textContent = "show bibtex";
+                          }
+                        });
+                      </script>
 
                   <table
                     style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -310,10 +431,9 @@
                             <td style="padding:10px;width:75%;vertical-align:middle">
                               <papertitle>CNOS: A Strong Baseline for CAD-based Novel Object Segmentation</papertitle>
                               <br>
-                              A method that can segment novel objects for a given RGB image from only their CAD models.
+                              <i> A method that can segment novel objects for a given RGB image from only their CAD models.
                               Based on Segmenting Anything, DINOv2, CNOS is a strong baseline for Task 5 and 6 in the
-                              BOP
-                              challenge 2023.
+                              BOP challenge 2023. </i> 
                               <div class="spacer"></div>
                               <strong>Van Nguyen Nguyen</strong>,
                               <a href="http://imagine.enpc.fr/~groueixt/">Thibault Groueix</a>,
@@ -378,8 +498,8 @@
                             <papertitle>PIZZA: A Powerful Image-only Zero-Shot Zero-CAD Approach to 6DoF Tracking
                             </papertitle>
                             </br>
-                            A method for tracking the 6D motion of objects in RGB video sequences when neither
-                            training images nor even the 3D geometry of the objects is available.
+                            <i>  A method for tracking the 6D motion of objects in RGB video sequences when neither
+                            training images nor even the 3D geometry of the objects is available.</i> 
                             </br>
                             <strong>Van Nguyen Nguyen<sup>+</sup></strong>,
                             <a href="https://dulucas.github.io/Homepage/">Yuming Du<sup>+</sup></a>,
@@ -440,9 +560,9 @@
                             <papertitle>Templates for 3D Object Pose Estimation Revisited: Generalization to New
                               Objects and Robustness to Occlusions</papertitle>
                             </br>
-                            A method that can recognize objects and estimate their 3D pose in color images even
+                            <i>  A method that can recognize objects and estimate their 3D pose in color images even
                             under partial occlusions. Our method requires neither a training phase on these objects
-                            nor real images depicting them, only their CAD models.
+                            nor real images depicting them, only their CAD models.</i> 
                             </br>
                             <strong>Van Nguyen Nguyen</strong>,
                             <a href="https://yinlinhu.github.io/">Yinlin Hu</a>,
