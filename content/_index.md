@@ -19,7 +19,7 @@ During my PhD, I interned twice at [Meta Reality Lab](https://about.facebook.com
 
 
 ---
-### Pose Estimation of Novel Rigid Objects
+### [PhD thesis] Pose Estimation of Novel Rigid Objects
 
 **Supervisor**: [Prof. Vincent Lepetit](https://vincentlepetit.github.io/)  
 **Reviewers**: [Prof. Markus Vincze](https://www.acin.tuwien.ac.at/en/staff/vm/), [Dr. Benjamin Busam](https://www.cs.cit.tum.de/camp/members/benjamin-busam/)  
