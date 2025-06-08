@@ -6,9 +6,9 @@ draft = false
 +++
 
 I am a Research Scientist at [United Imaging Intelligence (UII America)](https://www.uii-ai.com/) working on 3D Computer Vision and Robotics in medical environments. 
-Before joining UII America, I received my PhD at <a href="http://imagine.enpc.fr/">IMAGINE team</a>, <a href="http://www.enpc.fr/">École des Ponts ParisTech</a>, under the supervision of <a href="https://vincentlepetit.github.io/">Prof. Vincent Lepetit</a>.
+Before joining UII America, I received my PhD at [IMAGINE team](http://imagine.enpc.fr/), [École des Ponts ParisTech](http://www.enpc.fr/), under the supervision of [Prof. Vincent Lepetit](https://vincentlepetit.github.io/).
 
-During my PhD, I interned twice at <a href="https://about.facebook.com/realitylabs/">Meta Reality Labs</a>, worked with <a href="https://thodan.github.io/">Tomas Hodan</a> in 2024, and <a href="https://www.linkedin.com/in/pierre-moulon/">Pierre Moulon</a> in 2022. Prior to that, I graduated from the Master <a href="https://www.master-mva.com/">Mathématiques, Vision and Apprentissage (MVA)</a> from <a href="https://ens-paris-saclay.fr/en">École Normale Supérieure Paris-Saclay</a> and Engineering Program in Applied Mathematics at <a href="https://www.insa-toulouse.fr/">INSA Toulouse</a>. I also had chance to spend time at <a href="https://www.epfl.ch/labs/cvlab/">EPFL</a>, <a href="https://www.siemens.com/global/en.html">SIEMENS</a>.
+During my PhD, I interned twice at [Meta Reality Lab](https://about.facebook.com/realitylabs/), worked with [Tomas Hodan](https://thodan.github.io/) in 2024, and [Pierre Moulon](https://www.linkedin.com/in/pierre-moulon/) in 2022. Prior to that, I graduated from the Master [Mathématiques, Vision and Apprentissage (MVA)](https://www.master-mva.com/) from [École Normale Supérieure Paris-Saclay](https://ens-paris-saclay.fr/en) and Engineering Program in Applied Mathematics at [INSA Toulouse](https://www.insa-toulouse.fr/). I also had chance to spend time at [EPFL](https://www.epfl.ch/labs/cvlab/), [SIEMENS](https://www.siemens.com/global/en.html).
 
 
 [Email](mailto:vanngn.nguyen@gmail.com)
