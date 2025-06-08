@@ -18,3 +18,12 @@ During my PhD, I interned twice at [Meta Reality Lab](https://about.facebook.com
 [Github](https://github.com/nv-nguyen)
 
 
+---
+### Pose Estimation of Novel Rigid Objects
+
+**Supervisor**: [Prof. Vincent Lepetit](https://vincentlepetit.github.io/)  
+**Reviewers**: [Prof. Markus Vincze](https://www.acin.tuwien.ac.at/en/staff/vm/), [Dr. Benjamin Busam](https://www.cs.cit.tum.de/camp/members/benjamin-busam/)  
+**Examiners**: [Prof. Josef Sivic](https://people.ciirc.cvut.cz/~sivic/), [Prof. Dima Damen](https://dimadamen.github.io/), [Dr. Slobodan Ilic](https://campar.in.tum.de/Main/SlobodanIlic)
+
+- [📄 Thesis (PDF)](/download/thesis.pdf)
+- [📑 Slides (PDF)](/download/thesis_slide.pdf)
