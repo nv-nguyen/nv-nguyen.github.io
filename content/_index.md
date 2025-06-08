@@ -18,6 +18,7 @@ During my PhD, I interned twice at [Meta Reality Lab](https://about.facebook.com
 [Github](https://github.com/nv-nguyen)
 
 
+---
 ### Pose Estimation of Novel Rigid Objects
 
 **Supervisor**: [Prof. Vincent Lepetit](https://vincentlepetit.github.io/)  
