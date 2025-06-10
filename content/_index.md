@@ -14,6 +14,7 @@ During my PhD, I interned twice at [Meta Reality Lab](https://about.facebook.com
 [Email](mailto:vanngn.nguyen@gmail.com)
 [CV](/download/cv_nguyen.pdf)
 [Scholar](https://scholar.google.com/citations?user=wctJ37UAAAAJ)
+[Linkedin](https://www.linkedin.com/in/nv-nguyen/)
 [Twitter](https://x.com/vannguyen_ng)
 [Github](https://github.com/nv-nguyen)
 
