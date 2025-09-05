@@ -3,11 +3,11 @@
 <header>
     <h1>{{ $.Params.title }}</h1>
     {{- if $.Site.Params.theme_config.show_description -}}
-        <p>{{ $.Site.Params.description }}</p>
+    <p>{{ $.Site.Params.description }}</p>
     {{- end -}}
 </header>
 
-<img src= {{ $.Params.img }} style="float:right; width:40%; margin: 2.5%; border-radius: 50%;" />  
+<img src={{ $.Params.img }} style="float:right; width:40%; margin: -1% 2.5% 2.5% 2.5%; border-radius: 50%;" />
 
 {{ .Content }}
 

@@ -3,12 +3,17 @@
     extended=true
     min = "0.41.0"
 
+# Suppress warnings about raw HTML in markdown
+ignoreLogs = ['warning-goldmark-raw-html']
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.parser]
       [markup.goldmark.parser.attribute]
         block = true
         title = true
+    [markup.goldmark.renderer]
+      unsafe = true
   [markup.highlight]
     anchorLineNos = false
     codeFences = true
