@@ -152,3 +152,14 @@ figcaption {
 .red {
   color: red;
 }
+
+.links-line {
+  display: inline-flex;
+  gap: 0.5rem;          /* space between items */
+  align-items: center;  /* vertically align text and badges */
+  flex-wrap: nowrap;    /* prevent wrapping to new line */
+  white-space: nowrap;  /* extra safety */
+}
+.links-line a {
+  text-decoration: none; /* optional: remove underline */
+}
