@@ -1,75 +1,81 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Van Nguyen Nguyen on </title>
-    <link>//localhost:1313/</link>
-    <description>Recent content in Van Nguyen Nguyen on </description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 11 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>BOP Challenge 2024 on Model-free, Model-based Detection, and Pose Estimation of Unseen Rigid Objects</title>
-      <link>//localhost:1313/posts/2025-06-11-bop24/</link>
-      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2025-06-11-bop24/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Van Nguyen Nguyen&lt;/strong&gt;, Stephen Tyree, Andrew Guo, Médéric Fourmy, Anas Gouda, Taeyeop Lee, Sungphill Moon, Hyeontae Son, Lukas Ranftl, Jonathan Tremblay, Eric Brachmann, Bertram Drost, Vincent Lepetit, Carsten Rother, Stan Birchfield, Jiri Matas, Yann Labbé, Martin Sundermeyer, Tomáš Hodaň&lt;/p&gt;&#xA;&lt;p&gt;CVPRW 2025 &lt;span class=&#34;red&#34;&gt;(Best Paper Award)&lt;/span&gt;&lt;/p&gt;&#xA;&lt;p&gt;We introduce a new model-free variant of all tasks, define a new 6D object detection task, and introduce three new publicly available datasets.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://bop.felk.cvut.cz/challenges/bop-challenge-2024/&#34;&gt;[project page]&lt;/a&gt;  &lt;a href=&#34;https://arxiv.org/pdf/2504.02812&#34;&gt;[arXiv]&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>GoTrack: Generic 6DoF Object Pose Refinement and Tracking</title>
-      <link>//localhost:1313/posts/2025-06-11-gotrack/</link>
-      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2025-06-11-gotrack/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Van Nguyen Nguyen&lt;/strong&gt;, &lt;a href=&#34;https://www.cforster.ch&#34;&gt;Christian Forster&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/sindi-shkodrani/&#34;&gt;Sindi Shkodrani&lt;/a&gt;, &lt;a href=&#34;https://btekin.github.io&#34;&gt;Bugra Tekin&lt;/a&gt;, &lt;a href=&#34;https://vincentlepetit.github.io/&#34;&gt;Vincent Lepetit&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/cem-keskin-23692a15&#34;&gt;Cem Keskin&lt;/a&gt;, &lt;a href=&#34;https://vincentlepetit.github.io/&#34;&gt;Vincent Lepetit&lt;/a&gt;, &lt;a href=&#34;https://thodan.github.io/&#34;&gt;Tomáš Hodaň&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;CVPRW 2025&lt;/p&gt;&#xA;&lt;p&gt;We introduce GoTrack, an efficient and accurate CAD-based method for 6DoF pose refinement and tracking of unseen objects. Given a CAD model of an object, an RGB image with known intrinsics that shows the object in an unknown pose, and an initial object pose, Gotrack refines the object pose such as the 2D projection of the model aligns closely with the object’s appearance in the image.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>BOP Challenge 2023 on Detection, Segmentation and Pose Estimation of Seen and Unseen Rigid Objects</title>
-      <link>//localhost:1313/posts/2024-06-17-bop23/</link>
-      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024-06-17-bop23/</guid>
-      <description>&lt;p&gt;Tomas Hodan, Martin Sundermeyer, Yann Labbé, &lt;strong&gt;Van Nguyen Nguyen&lt;/strong&gt;, Gu Wang, Eric Brachmann, Bertram Drost, Vincent Lepetit, Carsten Rother, Jiri Matas&lt;/p&gt;&#xA;&lt;p&gt;CVPRW 2024&lt;/p&gt;&#xA;&lt;p&gt;The report of BOP challenge 2023 on state-of-the-art methods for seen and unseen object pose estimation.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://bop.felk.cvut.cz/challenges/bop-challenge-2023/&#34;&gt;[project page]&lt;/a&gt;   &lt;a href=&#34;https://arxiv.org/pdf/2403.09799.pdf&#34;&gt;[arXiv]&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>GigaPose: Fast and Robust Novel Object Pose Estimation via One Correspondence</title>
-      <link>//localhost:1313/posts/2024-06-17-gigapose/</link>
-      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024-06-17-gigapose/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Van Nguyen Nguyen&lt;/strong&gt;, &lt;a href=&#34;http://imagine.enpc.fr/~groueixt/&#34;&gt;Thibault Groueix&lt;/a&gt;, &lt;a href=&#34;https://people.epfl.ch/mathieu.salzmann&#34;&gt;Mathieu Salzmann&lt;/a&gt;, &lt;a href=&#34;https://vincentlepetit.github.io/&#34;&gt;Vincent Lepetit&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;CVPR 2024&lt;/p&gt;&#xA;&lt;p&gt;A &amp;ldquo;hybrid&amp;rdquo; template-patch correspondence approach that is fast, robust, and more accurate to estimate 6D pose of novel objects in RGB images. GigaPose predicts 6D object pose from a single 2D-to-2D correspondence.&lt;/p&gt;&#xA;&lt;span class=&#34;links-line&#34;&gt;&#xA;  &lt;a href=&#34;https://arxiv.org/pdf/2311.14155&#34;&gt;[[arXiv]]&lt;/a&gt;&#xA;  &lt;a href=&#34;https://github.com/nv-nguyen/gigapose&#34;&gt;[[code]]&lt;/a&gt;&#xA;  &lt;a href=&#34;https://github.com/nv-nguyen/gigapose/stargazers&#34;&gt;&#xA;    &lt;img src=&#34;https://img.shields.io/github/stars/nv-nguyen/gigapose?style=social&#34; alt=&#34;GitHub stars&#34;&gt;&#xA;  &lt;/a&gt;&#xA;  &lt;a href=&#34;https://github.com/nv-nguyen/gigapose/network/members&#34;&gt;&#xA;    &lt;img src=&#34;https://img.shields.io/github/forks/nv-nguyen/gigapose?style=social&#34; alt=&#34;GitHub forks&#34;&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/span&gt;</description>
-    </item>
-    <item>
-      <title>NOPE: Novel Object Pose Estimation from a Single Image</title>
-      <link>//localhost:1313/posts/2024-06-17-nope/</link>
-      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024-06-17-nope/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Van Nguyen Nguyen&lt;/strong&gt;, &lt;a href=&#34;http://imagine.enpc.fr/~groueixt/&#34;&gt;Thibault Groueix&lt;/a&gt;, &lt;a href=&#34;https://ponimatkin.github.io/&#34;&gt;Georgy Ponimatkin&lt;/a&gt;, &lt;a href=&#34;https://yinlinhu.github.io/&#34;&gt;Yinlin Hu&lt;/a&gt;, &lt;a href=&#34;http://imagine.enpc.fr/~marletr/&#34;&gt;Renaud Marlet&lt;/a&gt;, &lt;a href=&#34;https://people.epfl.ch/mathieu.salzmann&#34;&gt;Mathieu Salzmann&lt;/a&gt;, &lt;a href=&#34;https://vincentlepetit.github.io/&#34;&gt;Vincent Lepetit&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;CVPR 2024&lt;/p&gt;&#xA;&lt;p&gt;A method that can estimate relative pose of unseen objects given only a single reference image. It also predicts 3D pose distribution which can be used to address pose ambiguities due to symmetries.&lt;/p&gt;&#xA;&lt;span class=&#34;links-line&#34;&gt;&#xA;  &lt;a href=&#34;https://arxiv.org/pdf/2303.13612&#34;&gt;[[arXiv]]&lt;/a&gt;&#xA;  &lt;a href=&#34;https://github.com/nv-nguyen/nope&#34;&gt;[[code]]&lt;/a&gt;&#xA;  &lt;a href=&#34;https://github.com/nv-nguyen/nope/stargazers&#34;&gt;&#xA;    &lt;img src=&#34;https://img.shields.io/github/stars/nv-nguyen/nope?style=social&#34; alt=&#34;GitHub stars&#34;&gt;&#xA;  &lt;/a&gt;&#xA;  &lt;a href=&#34;https://github.com/nv-nguyen/nope/network/members&#34;&gt;&#xA;    &lt;img src=&#34;https://img.shields.io/github/forks/nv-nguyen/nope?style=social&#34; alt=&#34;GitHub forks&#34;&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/span&gt;</description>
-    </item>
-    <item>
-      <title>OpenStreetView-5M: The Many Roads to Global Visual Geolocation</title>
-      <link>//localhost:1313/posts/2024-06-17-osv/</link>
-      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024-06-17-osv/</guid>
-      <description>&lt;p&gt;Guillaume Astruc, Nicolas Dufour, Ioannis Siglidis, Constantin Aronssohn, Nacim Bouia, Stephanie Fu, Romain Loiseau, &lt;strong&gt;Van Nguyen Nguyen&lt;/strong&gt;, Charles Raude, Elliot Vincent, Lintao Xu, Hongyu Zhou, Loic Landrieu&lt;/p&gt;&#xA;&lt;p&gt;CVPR 2024&lt;/p&gt;&#xA;&lt;p&gt;A new benchmark for visual geolocation (~Geoguessr).&lt;/p&gt;&#xA;&lt;span class=&#34;links-line&#34;&gt;&#xA;  &lt;a href=&#34;https://arxiv.org/pdf/2404.18873&#34;&gt;[[arXiv]]&lt;/a&gt;&#xA;  &lt;a href=&#34;https://github.com/gastruc/osv5m&#34;&gt;[[code]]&lt;/a&gt;&#xA;  &lt;a href=&#34;https://github.com/gastruc/osv5m/stargazers&#34;&gt;&#xA;    &lt;img src=&#34;https://img.shields.io/github/stars/gastruc/osv5m?style=social&#34; alt=&#34;GitHub stars&#34;&gt;&#xA;  &lt;/a&gt;&#xA;  &lt;a href=&#34;https://github.com/gastruc/osv5m/network/members&#34;&gt;&#xA;    &lt;img src=&#34;https://img.shields.io/github/forks/gastruc/osv5m?style=social&#34; alt=&#34;GitHub forks&#34;&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/span&gt;</description>
-    </item>
-    <item>
-      <title>CNOS: A Strong Baseline for CAD-based Novel Object Segmentation</title>
-      <link>//localhost:1313/posts/2023-10-01-cnos/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2023-10-01-cnos/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Van Nguyen Nguyen&lt;/strong&gt;, &lt;a href=&#34;http://imagine.enpc.fr/~groueixt/&#34;&gt;Thibault Groueix&lt;/a&gt;, &lt;a href=&#34;https://ponimatkin.github.io/&#34;&gt;Georgy Ponimatkin&lt;/a&gt;, &lt;a href=&#34;https://vincentlepetit.github.io/&#34;&gt;Vincent Lepetit&lt;/a&gt;, &lt;a href=&#34;https://thodan.github.io/&#34;&gt;Tomáš Hodaň&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ICCVW 2023 &lt;span class=&#34;red&#34;&gt;(Best Method Award for 2D detection of unseen objects)&lt;/span&gt;&lt;/p&gt;&#xA;&lt;p&gt;A method that can segment novel objects for a given RGB image from only their CAD models. Based on Segmenting Anything, DINOv2, CNOS is a strong baseline for Task 5 and 6 in the BOP challenge 2023.&lt;/p&gt;&#xA;&lt;span class=&#34;links-line&#34;&gt;&#xA;  &lt;a href=&#34;https://arxiv.org/pdf/2307.11067&#34;&gt;[[arXiv]]&lt;/a&gt;&#xA;  &lt;a href=&#34;https://github.com/nv-nguyen/cnos&#34;&gt;[[code]]&lt;/a&gt;&#xA;  &lt;a href=&#34;https://github.com/nv-nguyen/cnos/stargazers&#34;&gt;&#xA;    &lt;img src=&#34;https://img.shields.io/github/stars/nv-nguyen/cnos?style=social&#34; alt=&#34;GitHub stars&#34;&gt;&#xA;  &lt;/a&gt;&#xA;  &lt;a href=&#34;https://github.com/nv-nguyen/cnos/network/members&#34;&gt;&#xA;    &lt;img src=&#34;https://img.shields.io/github/forks/nv-nguyen/cnos?style=social&#34; alt=&#34;GitHub forks&#34;&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/span&gt;</description>
-    </item>
-    <item>
-      <title>PIZZA: A Powerful Image-only Zero-Shot Zero-CAD Approach to 6DoF Tracking</title>
-      <link>//localhost:1313/posts/2022-12-01-pizza/</link>
-      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2022-12-01-pizza/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Van Nguyen Nguyen&lt;/strong&gt;&lt;sup&gt;+&lt;/sup&gt;, &lt;a href=&#34;https://dulucas.github.io/Homepage/&#34;&gt;Yuming Du&lt;/a&gt;&lt;sup&gt;+&lt;/sup&gt;, &lt;a href=&#34;https://youngxiao13.github.io/&#34;&gt;Yang Xiao&lt;/a&gt;, &lt;a href=&#34;https://michaelramamonjisoa.github.io/&#34;&gt;Michaël Ramamonjisoa&lt;/a&gt;, &lt;a href=&#34;https://vincentlepetit.github.io/&#34;&gt;Vincent Lepetit&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;3DV &lt;span class=&#34;red&#34;&gt;(Oral)&lt;/span&gt;&lt;/p&gt;&#xA;&lt;p&gt;A method for tracking the 6D motion of objects in RGB video sequences when neither training images nor even the 3D geometry of the objects is available.&lt;/p&gt;&#xA;&lt;span class=&#34;links-line&#34;&gt;&#xA;  &lt;a href=&#34;https://arxiv.org/pdf/2209.07589&#34;&gt;[[arXiv]]&lt;/a&gt;&#xA;  &lt;a href=&#34;https://github.com/nv-nguyen/pizza&#34;&gt;[[code]]&lt;/a&gt;&#xA;  &lt;a href=&#34;https://github.com/nv-nguyen/pizza/stargazers&#34;&gt;&#xA;    &lt;img src=&#34;https://img.shields.io/github/stars/nv-nguyen/pizza?style=social&#34; alt=&#34;GitHub stars&#34;&gt;&#xA;  &lt;/a&gt;&#xA;  &lt;a href=&#34;https://github.com/nv-nguyen/pizza/network/members&#34;&gt;&#xA;    &lt;img src=&#34;https://img.shields.io/github/forks/nv-nguyen/pizza?style=social&#34; alt=&#34;GitHub forks&#34;&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/span&gt;</description>
-    </item>
-    <item>
-      <title>Templates for 3D Object Pose Estimation Revisited: Generalization to New Objects and Robustness to Occlusions</title>
-      <link>//localhost:1313/posts/2022-06-01-template/</link>
-      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2022-06-01-template/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Van Nguyen Nguyen&lt;/strong&gt;, &lt;a href=&#34;https://yinlinhu.github.io/&#34;&gt;Yinlin Hu&lt;/a&gt;, &lt;a href=&#34;https://youngxiao13.github.io/&#34;&gt;Yang Xiao&lt;/a&gt;, &lt;a href=&#34;https://people.epfl.ch/mathieu.salzmann&#34;&gt;Mathieu Salzmann&lt;/a&gt;, &lt;a href=&#34;https://vincentlepetit.github.io/&#34;&gt;Vincent Lepetit&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;CVPR 2022&lt;/p&gt;&#xA;&lt;p&gt;A method that can recognize objects and estimate their 3D pose in color images even under partial occlusions. Our method requires neither a training phase on these objects nor real images depicting them, only their CAD models.&lt;/p&gt;&#xA;&lt;span class=&#34;links-line&#34;&gt;&#xA;  &lt;a href=&#34;https://arxiv.org/pdf/2203.17234&#34;&gt;[[arXiv]]&lt;/a&gt;&#xA;  &lt;a href=&#34;https://github.com/nv-nguyen/template-pose&#34;&gt;[[code]]&lt;/a&gt;&#xA;  &lt;a href=&#34;https://github.com/nv-nguyen/pizza/stargazers&#34;&gt;&#xA;    &lt;img src=&#34;https://img.shields.io/github/stars/nv-nguyen/template-pose?style=social&#34; alt=&#34;GitHub stars&#34;&gt;&#xA;  &lt;/a&gt;&#xA;  &lt;a href=&#34;https://github.com/nv-nguyen/template-pose/network/members&#34;&gt;&#xA;    &lt;img src=&#34;https://img.shields.io/github/forks/nv-nguyen/template-pose?style=social&#34; alt=&#34;GitHub forks&#34;&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/span&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Van Nguyen Nguyen on</title><link>/</link><description>Recent content in Van Nguyen Nguyen on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 11 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>BOP Challenge 2024 on Model-free, Model-based Detection, and Pose Estimation of Unseen Rigid Objects</title><link>/posts/2025-06-11-bop24/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>/posts/2025-06-11-bop24/</guid><description>&lt;p&gt;&lt;strong&gt;Van Nguyen Nguyen&lt;/strong&gt;, Stephen Tyree, Andrew Guo, Médéric Fourmy, Anas Gouda, Taeyeop Lee, Sungphill Moon, Hyeontae Son, Lukas Ranftl, Jonathan Tremblay, Eric Brachmann, Bertram Drost, Vincent Lepetit, Carsten Rother, Stan Birchfield, Jiri Matas, Yann Labbé, Martin Sundermeyer, Tomáš Hodaň&lt;/p&gt;
+&lt;p&gt;CVPRW 2025 &lt;span class="red"&gt;(Best Paper Award)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;We introduce a new model-free variant of all tasks, define a new 6D object detection task, and introduce three new publicly available datasets.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://bop.felk.cvut.cz/challenges/bop-challenge-2024/"&gt;[project page]&lt;/a&gt; &lt;a href="https://arxiv.org/pdf/2504.02812"&gt;[arXiv]&lt;/a&gt;&lt;/p&gt;</description></item><item><title>GoTrack: Generic 6DoF Object Pose Refinement and Tracking</title><link>/posts/2025-06-11-gotrack/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>/posts/2025-06-11-gotrack/</guid><description>&lt;p&gt;&lt;strong&gt;Van Nguyen Nguyen&lt;/strong&gt;, &lt;a href="https://www.cforster.ch"&gt;Christian Forster&lt;/a&gt;, &lt;a href="https://www.linkedin.com/in/sindi-shkodrani/"&gt;Sindi Shkodrani&lt;/a&gt;, &lt;a href="https://btekin.github.io"&gt;Bugra Tekin&lt;/a&gt;, &lt;a href="https://vincentlepetit.github.io/"&gt;Vincent Lepetit&lt;/a&gt;, &lt;a href="https://www.linkedin.com/in/cem-keskin-23692a15"&gt;Cem Keskin&lt;/a&gt;, &lt;a href="https://vincentlepetit.github.io/"&gt;Vincent Lepetit&lt;/a&gt;, &lt;a href="https://thodan.github.io/"&gt;Tomáš Hodaň&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;CVPRW 2025&lt;/p&gt;
+&lt;p&gt;We introduce GoTrack, an efficient and accurate CAD-based method for 6DoF pose refinement and tracking of unseen objects. Given a CAD model of an object, an RGB image with known intrinsics that shows the object in an unknown pose, and an initial object pose, Gotrack refines the object pose such as the 2D projection of the model aligns closely with the object’s appearance in the image.&lt;/p&gt;</description></item><item><title>BOP Challenge 2023 on Detection, Segmentation and Pose Estimation of Seen and Unseen Rigid Objects</title><link>/posts/2024-06-17-bop23/</link><pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate><guid>/posts/2024-06-17-bop23/</guid><description>&lt;p&gt;Tomas Hodan, Martin Sundermeyer, Yann Labbé, &lt;strong&gt;Van Nguyen Nguyen&lt;/strong&gt;, Gu Wang, Eric Brachmann, Bertram Drost, Vincent Lepetit, Carsten Rother, Jiri Matas&lt;/p&gt;
+&lt;p&gt;CVPRW 2024&lt;/p&gt;
+&lt;p&gt;The report of BOP challenge 2023 on state-of-the-art methods for seen and unseen object pose estimation.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://bop.felk.cvut.cz/challenges/bop-challenge-2023/"&gt;[project page]&lt;/a&gt; &lt;a href="https://arxiv.org/pdf/2403.09799.pdf"&gt;[arXiv]&lt;/a&gt;&lt;/p&gt;</description></item><item><title>GigaPose: Fast and Robust Novel Object Pose Estimation via One Correspondence</title><link>/posts/2024-06-17-gigapose/</link><pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate><guid>/posts/2024-06-17-gigapose/</guid><description>&lt;p&gt;&lt;strong&gt;Van Nguyen Nguyen&lt;/strong&gt;, &lt;a href="http://imagine.enpc.fr/~groueixt/"&gt;Thibault Groueix&lt;/a&gt;, &lt;a href="https://people.epfl.ch/mathieu.salzmann"&gt;Mathieu Salzmann&lt;/a&gt;, &lt;a href="https://vincentlepetit.github.io/"&gt;Vincent Lepetit&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;CVPR 2024&lt;/p&gt;
+&lt;p&gt;A &amp;ldquo;hybrid&amp;rdquo; template-patch correspondence approach that is fast, robust, and more accurate to estimate 6D pose of novel objects in RGB images. GigaPose predicts 6D object pose from a single 2D-to-2D correspondence.&lt;/p&gt;
+&lt;span class="links-line"&gt;
+ &lt;a href="https://arxiv.org/pdf/2311.14155"&gt;[[arXiv]]&lt;/a&gt;
+ &lt;a href="https://github.com/nv-nguyen/gigapose"&gt;[[code]]&lt;/a&gt;
+ &lt;a href="https://github.com/nv-nguyen/gigapose/stargazers"&gt;
+ &lt;img src="https://img.shields.io/github/stars/nv-nguyen/gigapose?style=social" alt="GitHub stars"&gt;
+ &lt;/a&gt;
+ &lt;a href="https://github.com/nv-nguyen/gigapose/network/members"&gt;
+ &lt;img src="https://img.shields.io/github/forks/nv-nguyen/gigapose?style=social" alt="GitHub forks"&gt;
+ &lt;/a&gt;
+&lt;/span&gt;</description></item><item><title>NOPE: Novel Object Pose Estimation from a Single Image</title><link>/posts/2024-06-17-nope/</link><pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate><guid>/posts/2024-06-17-nope/</guid><description>&lt;p&gt;&lt;strong&gt;Van Nguyen Nguyen&lt;/strong&gt;, &lt;a href="http://imagine.enpc.fr/~groueixt/"&gt;Thibault Groueix&lt;/a&gt;, &lt;a href="https://ponimatkin.github.io/"&gt;Georgy Ponimatkin&lt;/a&gt;, &lt;a href="https://yinlinhu.github.io/"&gt;Yinlin Hu&lt;/a&gt;, &lt;a href="http://imagine.enpc.fr/~marletr/"&gt;Renaud Marlet&lt;/a&gt;, &lt;a href="https://people.epfl.ch/mathieu.salzmann"&gt;Mathieu Salzmann&lt;/a&gt;, &lt;a href="https://vincentlepetit.github.io/"&gt;Vincent Lepetit&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;CVPR 2024&lt;/p&gt;
+&lt;p&gt;A method that can estimate relative pose of unseen objects given only a single reference image. It also predicts 3D pose distribution which can be used to address pose ambiguities due to symmetries.&lt;/p&gt;
+&lt;span class="links-line"&gt;
+ &lt;a href="https://arxiv.org/pdf/2303.13612"&gt;[[arXiv]]&lt;/a&gt;
+ &lt;a href="https://github.com/nv-nguyen/nope"&gt;[[code]]&lt;/a&gt;
+ &lt;a href="https://github.com/nv-nguyen/nope/stargazers"&gt;
+ &lt;img src="https://img.shields.io/github/stars/nv-nguyen/nope?style=social" alt="GitHub stars"&gt;
+ &lt;/a&gt;
+ &lt;a href="https://github.com/nv-nguyen/nope/network/members"&gt;
+ &lt;img src="https://img.shields.io/github/forks/nv-nguyen/nope?style=social" alt="GitHub forks"&gt;
+ &lt;/a&gt;
+&lt;/span&gt;</description></item><item><title>OpenStreetView-5M: The Many Roads to Global Visual Geolocation</title><link>/posts/2024-06-17-osv/</link><pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate><guid>/posts/2024-06-17-osv/</guid><description>&lt;p&gt;Guillaume Astruc, Nicolas Dufour, Ioannis Siglidis, Constantin Aronssohn, Nacim Bouia, Stephanie Fu, Romain Loiseau, &lt;strong&gt;Van Nguyen Nguyen&lt;/strong&gt;, Charles Raude, Elliot Vincent, Lintao Xu, Hongyu Zhou, Loic Landrieu&lt;/p&gt;
+&lt;p&gt;CVPR 2024&lt;/p&gt;
+&lt;p&gt;A new benchmark for visual geolocation (~Geoguessr).&lt;/p&gt;
+&lt;span class="links-line"&gt;
+ &lt;a href="https://arxiv.org/pdf/2404.18873"&gt;[[arXiv]]&lt;/a&gt;
+ &lt;a href="https://github.com/gastruc/osv5m"&gt;[[code]]&lt;/a&gt;
+ &lt;a href="https://github.com/gastruc/osv5m/stargazers"&gt;
+ &lt;img src="https://img.shields.io/github/stars/gastruc/osv5m?style=social" alt="GitHub stars"&gt;
+ &lt;/a&gt;
+ &lt;a href="https://github.com/gastruc/osv5m/network/members"&gt;
+ &lt;img src="https://img.shields.io/github/forks/gastruc/osv5m?style=social" alt="GitHub forks"&gt;
+ &lt;/a&gt;
+&lt;/span&gt;</description></item><item><title>CNOS: A Strong Baseline for CAD-based Novel Object Segmentation</title><link>/posts/2023-10-01-cnos/</link><pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate><guid>/posts/2023-10-01-cnos/</guid><description>&lt;p&gt;&lt;strong&gt;Van Nguyen Nguyen&lt;/strong&gt;, &lt;a href="http://imagine.enpc.fr/~groueixt/"&gt;Thibault Groueix&lt;/a&gt;, &lt;a href="https://ponimatkin.github.io/"&gt;Georgy Ponimatkin&lt;/a&gt;, &lt;a href="https://vincentlepetit.github.io/"&gt;Vincent Lepetit&lt;/a&gt;, &lt;a href="https://thodan.github.io/"&gt;Tomáš Hodaň&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ICCVW 2023 &lt;span class="red"&gt;(Best Method Award for 2D detection of unseen objects)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A method that can segment novel objects for a given RGB image from only their CAD models. Based on Segmenting Anything, DINOv2, CNOS is a strong baseline for Task 5 and 6 in the BOP challenge 2023.&lt;/p&gt;
+&lt;span class="links-line"&gt;
+ &lt;a href="https://arxiv.org/pdf/2307.11067"&gt;[[arXiv]]&lt;/a&gt;
+ &lt;a href="https://github.com/nv-nguyen/cnos"&gt;[[code]]&lt;/a&gt;
+ &lt;a href="https://github.com/nv-nguyen/cnos/stargazers"&gt;
+ &lt;img src="https://img.shields.io/github/stars/nv-nguyen/cnos?style=social" alt="GitHub stars"&gt;
+ &lt;/a&gt;
+ &lt;a href="https://github.com/nv-nguyen/cnos/network/members"&gt;
+ &lt;img src="https://img.shields.io/github/forks/nv-nguyen/cnos?style=social" alt="GitHub forks"&gt;
+ &lt;/a&gt;
+&lt;/span&gt;</description></item><item><title>PIZZA: A Powerful Image-only Zero-Shot Zero-CAD Approach to 6DoF Tracking</title><link>/posts/2022-12-01-pizza/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate><guid>/posts/2022-12-01-pizza/</guid><description>&lt;p&gt;&lt;strong&gt;Van Nguyen Nguyen&lt;/strong&gt;&lt;sup&gt;+&lt;/sup&gt;, &lt;a href="https://dulucas.github.io/Homepage/"&gt;Yuming Du&lt;/a&gt;&lt;sup&gt;+&lt;/sup&gt;, &lt;a href="https://youngxiao13.github.io/"&gt;Yang Xiao&lt;/a&gt;, &lt;a href="https://michaelramamonjisoa.github.io/"&gt;Michaël Ramamonjisoa&lt;/a&gt;, &lt;a href="https://vincentlepetit.github.io/"&gt;Vincent Lepetit&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3DV &lt;span class="red"&gt;(Oral)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A method for tracking the 6D motion of objects in RGB video sequences when neither training images nor even the 3D geometry of the objects is available.&lt;/p&gt;
+&lt;span class="links-line"&gt;
+ &lt;a href="https://arxiv.org/pdf/2209.07589"&gt;[[arXiv]]&lt;/a&gt;
+ &lt;a href="https://github.com/nv-nguyen/pizza"&gt;[[code]]&lt;/a&gt;
+ &lt;a href="https://github.com/nv-nguyen/pizza/stargazers"&gt;
+ &lt;img src="https://img.shields.io/github/stars/nv-nguyen/pizza?style=social" alt="GitHub stars"&gt;
+ &lt;/a&gt;
+ &lt;a href="https://github.com/nv-nguyen/pizza/network/members"&gt;
+ &lt;img src="https://img.shields.io/github/forks/nv-nguyen/pizza?style=social" alt="GitHub forks"&gt;
+ &lt;/a&gt;
+&lt;/span&gt;</description></item><item><title>Templates for 3D Object Pose Estimation Revisited: Generalization to New Objects and Robustness to Occlusions</title><link>/posts/2022-06-01-template/</link><pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate><guid>/posts/2022-06-01-template/</guid><description>&lt;p&gt;&lt;strong&gt;Van Nguyen Nguyen&lt;/strong&gt;, &lt;a href="https://yinlinhu.github.io/"&gt;Yinlin Hu&lt;/a&gt;, &lt;a href="https://youngxiao13.github.io/"&gt;Yang Xiao&lt;/a&gt;, &lt;a href="https://people.epfl.ch/mathieu.salzmann"&gt;Mathieu Salzmann&lt;/a&gt;, &lt;a href="https://vincentlepetit.github.io/"&gt;Vincent Lepetit&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;CVPR 2022&lt;/p&gt;
+&lt;p&gt;A method that can recognize objects and estimate their 3D pose in color images even under partial occlusions. Our method requires neither a training phase on these objects nor real images depicting them, only their CAD models.&lt;/p&gt;
+&lt;span class="links-line"&gt;
+ &lt;a href="https://arxiv.org/pdf/2203.17234"&gt;[[arXiv]]&lt;/a&gt;
+ &lt;a href="https://github.com/nv-nguyen/template-pose"&gt;[[code]]&lt;/a&gt;
+ &lt;a href="https://github.com/nv-nguyen/pizza/stargazers"&gt;
+ &lt;img src="https://img.shields.io/github/stars/nv-nguyen/template-pose?style=social" alt="GitHub stars"&gt;
+ &lt;/a&gt;
+ &lt;a href="https://github.com/nv-nguyen/template-pose/network/members"&gt;
+ &lt;img src="https://img.shields.io/github/forks/nv-nguyen/template-pose?style=social" alt="GitHub forks"&gt;
+ &lt;/a&gt;
+&lt;/span&gt;</description></item></channel></rss>
