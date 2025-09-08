@@ -33,7 +33,7 @@ During my PhD, I interned twice at [Meta Reality Labs](https://about.facebook.co
     <li class="older-news" style="display: none;">04/2024: <a href="https://arxiv.org/pdf/2403.09799.pdf">BOP challenge 2023 report</a> accepted to CVPRW 2024.</li>
     <li class="older-news" style="display: none;">02/2024: <a href="https://arxiv.org/pdf/2311.14155">GigaPose</a>, <a href="https://arxiv.org/pdf/2303.13612">NOPE</a>, <a href="https://arxiv.org/pdf/2404.18873">OSV5M</a> accepted to CVPR 2024.</li>
     <li class="older-news" style="display: none;">10/2023: <a href="https://arxiv.org/abs/2307.11067">CNOS</a> accepted to R6D workshop at ICCV 2023. Awarded best 2D detection method for unseen objects at <a href="https://bop.felk.cvut.cz/challenges/bop-challenge-2023">BOP challenge 2023</a>.</li>
-    <li class="older-news" style="display: none;">08/2022: Our paper <a href="https://arxiv.org/abs/2209.07589.pdf">PIZZA</a> accepted (as Oral) to 3DV 2022.</li>
+    <li class="older-news" style="display: none;">08/2022: <a href="https://arxiv.org/abs/2209.07589.pdf">PIZZA</a> accepted (as Oral) to 3DV 2022.</li>
     <li class="older-news" style="display: none;">05/2022: Joined <a href="https://about.facebook.com/realitylabs/">Meta Reality Labs</a> as a research intern, working with <a href="https://www.linkedin.com/in/pierre-moulon/">Pierre Moulon</a>.</li>
     <li class="older-news" style="display: none;">03/2022: <a href="https://arxiv.org/abs/2203.17234.pdf">Template-pose</a> accepted to CVPR 2022.</li>
     <li class="older-news" style="display: none;">10/2020: Started PhD at <a href="http://imagine.enpc.fr/">IMAGINE team</a>, advised by <a href="https://vincentlepetit.github.io/">Prof. Vincent Lepetit</a>.</li>
