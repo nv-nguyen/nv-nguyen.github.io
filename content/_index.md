@@ -5,10 +5,11 @@ img = "/images/nguyen.png"
 draft = false
 +++
 
-I am a Research Scientist at [United Imaging Intelligence (UII America)](https://www.linkedin.com/company/uii-america-inc/) working on 3D computer vision and robotics for clinical AI products. 
-Before joining UII America, I received my PhD at [IMAGINE team](http://imagine.enpc.fr/), [École des Ponts ParisTech](http://www.enpc.fr/), under the supervision of [Prof. Vincent Lepetit](https://vincentlepetit.github.io/).
+I am a Research Scientist at [United Imaging Intelligence (UII America)](https://www.linkedin.com/company/uii-america-inc/) in Greater Boston, MA, USA.
 
-During my PhD, I interned twice at [Meta Reality Labs](https://about.facebook.com/realitylabs/). Prior to that, I graduated from the Master [Mathématiques, Vision and Apprentissage (MVA)](https://www.master-mva.com/) from [École Normale Supérieure Paris-Saclay](https://ens-paris-saclay.fr/en) and Engineering Program in Applied Mathematics at [INSA Toulouse](https://www.insa-toulouse.fr/). I also had chance to spend time at [EPFL](https://www.epfl.ch/labs/cvlab/), [SIEMENS](https://www.siemens.com/global/en.html).
+I completed my PhD at [IMAGINE team](http://imagine.enpc.fr/), [École des Ponts ParisTech](http://www.enpc.fr/), under the supervision of [Prof. Vincent Lepetit](https://vincentlepetit.github.io/). 
+
+My research focuses on 3D computer vision and robotics.
 
 
 [Email](mailto:vanngn.nguyen@gmail.com)
