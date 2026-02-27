@@ -182,3 +182,23 @@ figcaption {
 .links-line a {
   text-decoration: none; /* optional: remove underline */
 }
+
+.pub-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.2s;
+  &:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+}
+.pub-img {
+  flex-shrink: 0;
+  width: 25%;
+  img { width: 100%; border-radius: 4px; }
+}
+.pub-info {
+  flex: 1;
+}

@@ -13,11 +13,12 @@ My research focuses on 3D computer vision and robotics.
 
 **Our team is always looking for self-motivated research interns. Please drop me a line if you are interested!**
 
-[Email](mailto:vanngn.nguyen@gmail.com)
-[CV](/download/cv_nguyen.pdf)
-[Scholar](https://scholar.google.com/citations?user=wctJ37UAAAAJ)
-[Linkedin](https://www.linkedin.com/in/nv-nguyen/)
-[Github](https://github.com/nv-nguyen)
+<div class="links-line" style="display: flex; font-size: 18px; gap: 1rem; justify-content: center;">
+  <a href="https://scholar.google.com/citations?user=wctJ37UAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+  <a href="https://www.linkedin.com/in/nv-nguyen/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="https://github.com/nv-nguyen" title="GitHub"><i class="fa-brands fa-github"></i></a>
+  <a href="/download/cv_nguyen.pdf" title="CV"><i class="ai ai-cv"></i></a>
+</div>
 
 ---
 ## News
