@@ -1,16 +1,9 @@
 ## Service
 
-Reviewing:
-- CVPR: 2022, 2023, 2024, 2025
-- ICCV: 2023, 2025
-- ECCV: 2022, 2024
-- NeurIPS: 2024, 2025
-- IROS: 2024, 2025
-- TPAMI: 2022
-- 3DV: 2024
-- ACCV: 2024
-- BMVC: 2021
+Reviewing: CVPR, ICCV, ECCV, NeurIPS, IROS, ICRA, RA-L, TPAMI, 3DV, ACCV, BMVC
 
-Workshop:
-- ECCV 2024: [9th R6D workshop](https://cmp.felk.cvut.cz/sixd/workshop_2024/)
+Teaching: Image Processing and Artificial Vision (1st Master level) at ENPC, France in 2021, 2022
 
+Workshop & Challenge:
+- R6D Workshop, [9th edition at ECCV 2024](https://cmp.felk.cvut.cz/sixd/workshop_2024/)
+- BOP Challenges: [2023 edition](https://bop.felk.cvut.cz/challenges/bop-challenge-2023/), [2024 edition](https://bop.felk.cvut.cz/challenges/bop-challenge-2024/), [2025 edition](https://bop.felk.cvut.cz/challenges/bop-challenge-2025/)

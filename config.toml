@@ -1,3 +1,5 @@
+buildFuture = true
+
 [module]
   [module.hugoVersion]
     extended=true

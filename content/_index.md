@@ -11,12 +11,12 @@ I completed my PhD at [IMAGINE team](http://imagine.enpc.fr/), [École des Ponts
 
 My research focuses on 3D computer vision and robotics.
 
+**Our team is always looking for self-motivated research interns. Please drop me a line if you are interested!**
 
 [Email](mailto:vanngn.nguyen@gmail.com)
 [CV](/download/cv_nguyen.pdf)
 [Scholar](https://scholar.google.com/citations?user=wctJ37UAAAAJ)
 [Linkedin](https://www.linkedin.com/in/nv-nguyen/)
-[Twitter](https://x.com/vannguyen_ng)
 [Github](https://github.com/nv-nguyen)
 
 ---
@@ -24,6 +24,8 @@ My research focuses on 3D computer vision and robotics.
 
 <div id="news-container">
   <ul>
+    <li>02/2026: <a href="https://arxiv.org/pdf/2512.14126">CIF</a> and <a href="https://arxiv.org/pdf/2512.06581">MedGRPO</a> accepted to CVPR 2026.</li>
+    <li>01/2026: <a href="https://arxiv.org/pdf/2510.03312">Universal Beta Splatting</a> accepted to ICLR 2026.</li>
     <li>06/2025: Joined <a href="https://www.linkedin.com/company/uii-america-inc/">United Imaging Intelligence</a> in Burlington, MA as a research scientist.</li>
     <li>06/2025: <a href="https://arxiv.org/pdf/2504.02812">BOP challenge 2024 report</a> received Best Paper Award at CV4MR workshop at CVPR 2025.</li>
     <li>04/2024: <a href="https://arxiv.org/pdf/2504.02812">BOP challenge 2024 report</a> and <a href="https://arxiv.org/pdf/2506.07155">GoTrack</a> accepted to CV4MR workshop at CVPR 2025.</li>
@@ -84,3 +86,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
 - [📄 Thesis (PDF)](/download/thesis.pdf)
 - [📑 Slides (PDF)](/download/thesis_slide.pdf)
+
+---

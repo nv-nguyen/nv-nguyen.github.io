@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//home/nvnguyen/code/nv-nguyen.github.io/content/**)",
+      "Read(//mnt/UIIUSA/nvnguyen/code/nv-nguyen.github.io/content/**)"
+    ],
+    "additionalDirectories": [
+      "/home/nvnguyen/code/nv-nguyen.github.io/content",
+      "/mnt/UIIUSA/nvnguyen/code/nv-nguyen.github.io/content"
+    ]
+  }
+}
