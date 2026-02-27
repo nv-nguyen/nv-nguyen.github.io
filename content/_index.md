@@ -20,7 +20,7 @@ My research focuses on 3D computer vision and robotics.
 [Github](https://github.com/nv-nguyen)
 
 ---
-### [News]
+## News
 
 <div id="news-container">
   <ul>
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 ---
-### [PhD thesis] Pose Estimation of Novel Rigid Objects
+## PhD thesis: Pose Estimation of Novel Rigid Objects
 
 **Supervisor**: [Prof. Vincent Lepetit](https://vincentlepetit.github.io/)  
 **Reviewers**: [Prof. Markus Vincze](https://www.acin.tuwien.ac.at/en/staff/vm/), [Dr. Benjamin Busam](https://www.cs.cit.tum.de/camp/members/benjamin-busam/)  

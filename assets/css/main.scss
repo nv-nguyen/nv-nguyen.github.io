@@ -65,6 +65,28 @@ body[a="light"] { @include light-appearance; }
 
 // -------------------------------------------- //
 
+// -------------- THEME TOGGLE BUTTON ---------- //
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 999;
+  background: none;
+  border: 1px solid #888;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  &:hover { opacity: 1; }
+}
+// -------------------------------------------- //
+
 html { height: 100%; }
 
 body {
