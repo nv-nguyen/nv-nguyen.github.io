@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang=""><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" content="Van Nguyen Nguyen, Christian Forster, Sindi Shkodrani, Bugra Tekin, Vincent Lepetit, Cem Keskin, Vincent Lepetit, Tomáš Hodaň
+CVPRW 2025
+An efficient and accurate CAD-based method for 6DoF pose refinement and tracking of unseen objects. Given a CAD model of an object, an RGB image with known intrinsics that shows the object in an unknown pose, and an initial object pose, Gotrack refines the object pose such as the 2D projection of the model aligns closely with the object’s appearance in the image.">  
+
+  <title>
+    
+      GoTrack: Generic 6DoF Object Pose Refinement and Tracking
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" />
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.433d83f74a27edc339f83048b85eb45476f4fbedf08fe58fe4fc516a726fad21ceadf229d96e830b9a1c1d16db27bc9c0a4bcd4f544ff8f2936e154d11ce1420.css" integrity="sha512-Qz2D90on7cM5&#43;DBIuF60VHb0&#43;&#43;3wj&#43;WP5PxRanJvrSHOrfIp2W6DC5ocHRbbJ7ycCkvNT1RP&#43;PKTbhVNEc4UIA==" />
+  
+</head>
+<body a="light">
+        <span id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode"></span>
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+
+<article>
+    <p class="post-meta">
+        <time datetime="2025-06-11 00:00:00 &#43;0000 UTC">
+            2025-06-11
+        </time>
+    </p>
+
+    <h1>GoTrack: Generic 6DoF Object Pose Refinement and Tracking</h1>
+
+    
+
+    <p><strong>Van Nguyen Nguyen</strong>, <a href="https://www.cforster.ch">Christian Forster</a>, <a href="https://www.linkedin.com/in/sindi-shkodrani/">Sindi Shkodrani</a>, <a href="https://btekin.github.io">Bugra Tekin</a>, <a href="https://vincentlepetit.github.io/">Vincent Lepetit</a>, <a href="https://www.linkedin.com/in/cem-keskin-23692a15">Cem Keskin</a>, <a href="https://vincentlepetit.github.io/">Vincent Lepetit</a>, <a href="https://thodan.github.io/">Tomáš Hodaň</a></p>
+<p>CVPRW 2025</p>
+<p>An efficient and accurate CAD-based method for 6DoF pose refinement and tracking of unseen objects. Given a CAD model of an object, an RGB image with known intrinsics that shows the object in an unknown pose, and an initial object pose, Gotrack refines the object pose such as the 2D projection of the model aligns closely with the object’s appearance in the image.</p>
+<span class="links-line">
+  <a href="https://arxiv.org/pdf/2506.07155">[arXiv]</a>
+  <a href="https://github.com/facebookresearch/gotrack">[code]</a>
+  <a href="https://github.com/facebookresearch/gotrack/stargazers">
+    <img src="https://img.shields.io/github/stars/facebookresearch/gotrack?style=social" alt="GitHub stars">
+  </a>
+  <a href="https://github.com/facebookresearch/gotrack/network/members">
+    <img src="https://img.shields.io/github/forks/facebookresearch/gotrack?style=social" alt="GitHub forks">
+  </a>
+</span>
+</article>
+
+            </div>
+        </main>
+        <script>
+        (function() {
+          var btn = document.getElementById('theme-toggle');
+          var body = document.body;
+
+          function getEffectiveTheme() {
+            var a = body.getAttribute('a');
+            if (a === 'dark' || a === 'light') return a;
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          }
+
+          function updateButton() {
+            btn.textContent = getEffectiveTheme() === 'dark' ? '[light]' : '[dark]';
+          }
+
+          var saved = localStorage.getItem('theme');
+          if (saved) body.setAttribute('a', saved);
+
+          updateButton();
+
+          btn.addEventListener('click', function() {
+            var next = getEffectiveTheme() === 'dark' ? 'light' : 'dark';
+            body.setAttribute('a', next);
+            localStorage.setItem('theme', next);
+            updateButton();
+          });
+        })();
+        </script>
+    </body></html>

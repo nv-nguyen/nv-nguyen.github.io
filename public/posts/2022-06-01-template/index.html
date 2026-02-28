@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang=""><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" content="Van Nguyen Nguyen, Yinlin Hu, Yang Xiao, Mathieu Salzmann, Vincent Lepetit
+CVPR 2022
+A method that can recognize objects and estimate their 3D pose in color images even under partial occlusions. Our method requires neither a training phase on these objects nor real images depicting them, only their CAD models.
+[arXiv] [code]   ">  
+
+  <title>
+    
+      Templates for 3D Object Pose Estimation Revisited: Generalization to New Objects and Robustness to Occlusions
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" />
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.433d83f74a27edc339f83048b85eb45476f4fbedf08fe58fe4fc516a726fad21ceadf229d96e830b9a1c1d16db27bc9c0a4bcd4f544ff8f2936e154d11ce1420.css" integrity="sha512-Qz2D90on7cM5&#43;DBIuF60VHb0&#43;&#43;3wj&#43;WP5PxRanJvrSHOrfIp2W6DC5ocHRbbJ7ycCkvNT1RP&#43;PKTbhVNEc4UIA==" />
+  
+</head>
+<body a="light">
+        <span id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode"></span>
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+
+<article>
+    <p class="post-meta">
+        <time datetime="2022-06-01 00:00:00 &#43;0000 UTC">
+            2022-06-01
+        </time>
+    </p>
+
+    <h1>Templates for 3D Object Pose Estimation Revisited: Generalization to New Objects and Robustness to Occlusions</h1>
+
+    
+
+    <p><strong>Van Nguyen Nguyen</strong>, <a href="https://yinlinhu.github.io/">Yinlin Hu</a>, <a href="https://youngxiao13.github.io/">Yang Xiao</a>, <a href="https://people.epfl.ch/mathieu.salzmann">Mathieu Salzmann</a>, <a href="https://vincentlepetit.github.io/">Vincent Lepetit</a></p>
+<p>CVPR 2022</p>
+<p>A method that can recognize objects and estimate their 3D pose in color images even under partial occlusions. Our method requires neither a training phase on these objects nor real images depicting them, only their CAD models.</p>
+<span class="links-line">
+  <a href="https://arxiv.org/pdf/2203.17234">[arXiv]</a>
+  <a href="https://github.com/nv-nguyen/template-pose">[code]</a>
+  <a href="https://github.com/nv-nguyen/pizza/stargazers">
+    <img src="https://img.shields.io/github/stars/nv-nguyen/template-pose?style=social" alt="GitHub stars">
+  </a>
+  <a href="https://github.com/nv-nguyen/template-pose/network/members">
+    <img src="https://img.shields.io/github/forks/nv-nguyen/template-pose?style=social" alt="GitHub forks">
+  </a>
+</span>
+</article>
+
+            </div>
+        </main>
+        <script>
+        (function() {
+          var btn = document.getElementById('theme-toggle');
+          var body = document.body;
+
+          function getEffectiveTheme() {
+            var a = body.getAttribute('a');
+            if (a === 'dark' || a === 'light') return a;
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          }
+
+          function updateButton() {
+            btn.textContent = getEffectiveTheme() === 'dark' ? '[light]' : '[dark]';
+          }
+
+          var saved = localStorage.getItem('theme');
+          if (saved) body.setAttribute('a', saved);
+
+          updateButton();
+
+          btn.addEventListener('click', function() {
+            var next = getEffectiveTheme() === 'dark' ? 'light' : 'dark';
+            body.setAttribute('a', next);
+            localStorage.setItem('theme', next);
+            updateButton();
+          });
+        })();
+        </script>
+    </body></html>

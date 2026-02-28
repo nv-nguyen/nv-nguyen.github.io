@@ -2,7 +2,7 @@
 <html lang="{{ $.Site.LanguageCode }}">
     {{- partial "head.html" . -}}
     <body a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
-        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode"></button>
+        <span id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode"></span>
         <main class="page-content" aria-label="Content">
             <div class="w">
                 {{- block "main" . }}{{- end }}
@@ -21,7 +21,9 @@
           }
 
           function updateButton() {
-            btn.textContent = getEffectiveTheme() === 'dark' ? '\u2600\uFE0F' : '\uD83C\uDF19';
+            var t = getEffectiveTheme();
+            btn.textContent = t === 'dark' ? '[light]' : '[dark]';
+            btn.style.color = t === 'dark' ? '#fafafa' : '#212121';
           }
 
           var saved = localStorage.getItem('theme');

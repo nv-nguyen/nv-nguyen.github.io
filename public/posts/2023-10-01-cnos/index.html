@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang=""><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" content="Van Nguyen Nguyen, Thibault Groueix, Georgy Ponimatkin, Vincent Lepetit, Tomáš Hodaň
+ICCVW 2023 (Best Method Award for 2D detection of unseen objects)
+A method that can segment novel objects for a given RGB image from only their CAD models. Based on Segmenting Anything, DINOv2, CNOS is a strong baseline for Task 5 and 6 in the BOP challenge 2023.
+[arXiv] [code]   ">  
+
+  <title>
+    
+      CNOS: A Strong Baseline for CAD-based Novel Object Segmentation
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" />
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.433d83f74a27edc339f83048b85eb45476f4fbedf08fe58fe4fc516a726fad21ceadf229d96e830b9a1c1d16db27bc9c0a4bcd4f544ff8f2936e154d11ce1420.css" integrity="sha512-Qz2D90on7cM5&#43;DBIuF60VHb0&#43;&#43;3wj&#43;WP5PxRanJvrSHOrfIp2W6DC5ocHRbbJ7ycCkvNT1RP&#43;PKTbhVNEc4UIA==" />
+  
+</head>
+<body a="light">
+        <span id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode"></span>
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+
+<article>
+    <p class="post-meta">
+        <time datetime="2023-10-01 00:00:00 &#43;0000 UTC">
+            2023-10-01
+        </time>
+    </p>
+
+    <h1>CNOS: A Strong Baseline for CAD-based Novel Object Segmentation</h1>
+
+    
+
+    <p><strong>Van Nguyen Nguyen</strong>, <a href="http://imagine.enpc.fr/~groueixt/">Thibault Groueix</a>, <a href="https://ponimatkin.github.io/">Georgy Ponimatkin</a>, <a href="https://vincentlepetit.github.io/">Vincent Lepetit</a>, <a href="https://thodan.github.io/">Tomáš Hodaň</a></p>
+<p>ICCVW 2023 <span class="red">(Best Method Award for 2D detection of unseen objects)</span></p>
+<p>A method that can segment novel objects for a given RGB image from only their CAD models. Based on Segmenting Anything, DINOv2, CNOS is a strong baseline for Task 5 and 6 in the BOP challenge 2023.</p>
+<span class="links-line">
+  <a href="https://arxiv.org/pdf/2307.11067">[arXiv]</a>
+  <a href="https://github.com/nv-nguyen/cnos">[code]</a>
+  <a href="https://github.com/nv-nguyen/cnos/stargazers">
+    <img src="https://img.shields.io/github/stars/nv-nguyen/cnos?style=social" alt="GitHub stars">
+  </a>
+  <a href="https://github.com/nv-nguyen/cnos/network/members">
+    <img src="https://img.shields.io/github/forks/nv-nguyen/cnos?style=social" alt="GitHub forks">
+  </a>
+</span>
+</article>
+
+            </div>
+        </main>
+        <script>
+        (function() {
+          var btn = document.getElementById('theme-toggle');
+          var body = document.body;
+
+          function getEffectiveTheme() {
+            var a = body.getAttribute('a');
+            if (a === 'dark' || a === 'light') return a;
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          }
+
+          function updateButton() {
+            btn.textContent = getEffectiveTheme() === 'dark' ? '[light]' : '[dark]';
+          }
+
+          var saved = localStorage.getItem('theme');
+          if (saved) body.setAttribute('a', saved);
+
+          updateButton();
+
+          btn.addEventListener('click', function() {
+            var next = getEffectiveTheme() === 'dark' ? 'light' : 'dark';
+            body.setAttribute('a', next);
+            localStorage.setItem('theme', next);
+            updateButton();
+          });
+        })();
+        </script>
+    </body></html>

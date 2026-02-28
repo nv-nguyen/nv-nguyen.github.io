@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Van Nguyen Nguyen on </title>
+    <link>/</link>
+    <description>Recent content in Van Nguyen Nguyen on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 25 Aug 2022 21:30:04 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CIF: Consistent Instance Field for Dynamic Scene Understanding</title>
+      <link>/posts/2026-06-07-cif/</link>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2026-06-07-cif/</guid>
+      <description>Junyi Wu, Van Nguyen Nguyen, Benjamin Planche, Jiachen Tao, Changchang Sun, Zhongpai Gao, Zhenghao Zhao, Anwesa Choudhuri, Gengyu Zhang, Meng Zheng, Feiran Wang, Terrence Chen, Yan Yan, Ziyan Wu
+CVPR 2026
+A continuous probabilistic spatio-temporal representation for dynamic scene understanding that disentangles visibility from persistent object identity. Our approach employs instance-embedded deformable 3D Gaussians that encode both radiance and semantic information, enabling novel-view panoptic segmentation and open-vocabulary 4D querying tasks.</description>
+    </item>
+    
+    <item>
+      <title>MedGRPO: Multi-Task Reinforcement Learning for Heterogeneous Medical Video Understanding</title>
+      <link>/posts/2026-06-07-medgrpo/</link>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2026-06-07-medgrpo/</guid>
+      <description>Yuhao Su, Anwesa Choudhuri, Zhongpai Gao, Benjamin Planche, Van Nguyen Nguyen, Meng Zheng, Yuhan Shen, Arun Innanje, Terrence Chen, Ehsan Elhamifar, Ziyan Wu
+CVPR 2026
+We introduce MedVidBench, a large-scale benchmark of 531K video-instruction pairs across 8 medical sources, and MedGRPO, an RL framework with cross-dataset reward normalization and a medical LLM judge for balanced multi-dataset training. Fine-tuning Qwen2.5-VL-7B on MedVidBench substantially outperforms GPT-4.1 and Gemini-2.5-Flash, while MedGRPO further improves grounding and captioning tasks.</description>
+    </item>
+    
+    <item>
+      <title>Universal Beta Splatting</title>
+      <link>/posts/2026-04-23-ubs/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2026-04-23-ubs/</guid>
+      <description>Rong Liu, Zhongpai Gao, Benjamin Planche, Meida Chen, Van Nguyen Nguyen, Meng Zheng, Anwesa Choudhuri, Terrence Chen, Yue Wang, Andrew Feng, Ziyan Wu
+ICLR 2026
+A unified framework that generalizes 3D Gaussian Splatting to N-dimensional anisotropic Beta kernels for explicit radiance field rendering. Beta kernels naturally decompose scene properties into interpretable components (surface vs. texture, diffuse vs. specular, static vs. dynamic) without explicit supervision.
+[arXiv] [project page] [code]    </description>
+    </item>
+    
+    <item>
+      <title>BOP Challenge 2024 on Model-free, Model-based Detection, and Pose Estimation of Unseen Rigid Objects</title>
+      <link>/posts/2025-06-11-bop24/</link>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2025-06-11-bop24/</guid>
+      <description>Van Nguyen Nguyen, Stephen Tyree, Andrew Guo, Médéric Fourmy, Anas Gouda, Taeyeop Lee, Sungphill Moon, Hyeontae Son, Lukas Ranftl, Jonathan Tremblay, Eric Brachmann, Bertram Drost, Vincent Lepetit, Carsten Rother, Stan Birchfield, Jiri Matas, Yann Labbé, Martin Sundermeyer, Tomáš Hodaň
+CVPRW 2025 (Best Paper Award)
+The report of BOP Challenge 2024 on model-based and model-free 2D/6D object detection on BOP-Classic and new BOP-H3 datasets (HOT3D, HOPEv2, HANDAL).
+project page arXiv</description>
+    </item>
+    
+    <item>
+      <title>GoTrack: Generic 6DoF Object Pose Refinement and Tracking</title>
+      <link>/posts/2025-06-11-gotrack/</link>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2025-06-11-gotrack/</guid>
+      <description>Van Nguyen Nguyen, Christian Forster, Sindi Shkodrani, Bugra Tekin, Vincent Lepetit, Cem Keskin, Vincent Lepetit, Tomáš Hodaň
+CVPRW 2025
+An efficient and accurate CAD-based method for 6DoF pose refinement and tracking of unseen objects. Given a CAD model of an object, an RGB image with known intrinsics that shows the object in an unknown pose, and an initial object pose, Gotrack refines the object pose such as the 2D projection of the model aligns closely with the object’s appearance in the image.</description>
+    </item>
+    
+    <item>
+      <title>BOP Challenge 2023 on Detection, Segmentation and Pose Estimation of Seen and Unseen Rigid Objects</title>
+      <link>/posts/2024-06-17-bop23/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2024-06-17-bop23/</guid>
+      <description>Tomas Hodan, Martin Sundermeyer, Yann Labbé, Van Nguyen Nguyen, Gu Wang, Eric Brachmann, Bertram Drost, Vincent Lepetit, Carsten Rother, Jiri Matas
+CVPRW 2024
+The report of BOP Challenge 2023 on state-of-the-art methods for seen and unseen object pose estimation.
+project page arXiv</description>
+    </item>
+    
+    <item>
+      <title>GigaPose: Fast and Robust Novel Object Pose Estimation via One Correspondence</title>
+      <link>/posts/2024-06-17-gigapose/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2024-06-17-gigapose/</guid>
+      <description>Van Nguyen Nguyen, Thibault Groueix, Mathieu Salzmann, Vincent Lepetit
+CVPR 2024
+A &amp;ldquo;hybrid&amp;rdquo; template-patch correspondence approach that is fast, robust, and more accurate to estimate 6D pose of novel objects in RGB images. GigaPose predicts 6D object pose from a single 2D-to-2D correspondence.
+[arXiv] [code]   </description>
+    </item>
+    
+    <item>
+      <title>NOPE: Novel Object Pose Estimation from a Single Image</title>
+      <link>/posts/2024-06-17-nope/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2024-06-17-nope/</guid>
+      <description>Van Nguyen Nguyen, Thibault Groueix, Georgy Ponimatkin, Yinlin Hu, Renaud Marlet, Mathieu Salzmann, Vincent Lepetit
+CVPR 2024
+A method that can estimate relative pose of unseen objects given only a single reference image. It also predicts 3D pose distribution which can be used to address pose ambiguities due to symmetries.
+[arXiv] [code]   </description>
+    </item>
+    
+    <item>
+      <title>OpenStreetView-5M: The Many Roads to Global Visual Geolocation</title>
+      <link>/posts/2024-06-17-osv/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2024-06-17-osv/</guid>
+      <description>Guillaume Astruc, Nicolas Dufour, Ioannis Siglidis, Constantin Aronssohn, Nacim Bouia, Stephanie Fu, Romain Loiseau, Van Nguyen Nguyen, Charles Raude, Elliot Vincent, Lintao Xu, Hongyu Zhou, Loic Landrieu
+CVPR 2024
+A new benchmark for visual geolocation (~Geoguessr).
+[arXiv] [code]   </description>
+    </item>
+    
+    <item>
+      <title>CNOS: A Strong Baseline for CAD-based Novel Object Segmentation</title>
+      <link>/posts/2023-10-01-cnos/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2023-10-01-cnos/</guid>
+      <description>Van Nguyen Nguyen, Thibault Groueix, Georgy Ponimatkin, Vincent Lepetit, Tomáš Hodaň
+ICCVW 2023 (Best Method Award for 2D detection of unseen objects)
+A method that can segment novel objects for a given RGB image from only their CAD models. Based on Segmenting Anything, DINOv2, CNOS is a strong baseline for Task 5 and 6 in the BOP challenge 2023.
+[arXiv] [code]   </description>
+    </item>
+    
+    <item>
+      <title>PIZZA: A Powerful Image-only Zero-Shot Zero-CAD Approach to 6DoF Tracking</title>
+      <link>/posts/2022-12-01-pizza/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2022-12-01-pizza/</guid>
+      <description>Van Nguyen Nguyen+, Yuming Du+, Yang Xiao, Michaël Ramamonjisoa, Vincent Lepetit
+3DV (Oral)
+A method for tracking the 6D motion of objects in RGB video sequences when neither training images nor even the 3D geometry of the objects is available.
+[arXiv] [code]   </description>
+    </item>
+    
+    <item>
+      <title>Templates for 3D Object Pose Estimation Revisited: Generalization to New Objects and Robustness to Occlusions</title>
+      <link>/posts/2022-06-01-template/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2022-06-01-template/</guid>
+      <description>Van Nguyen Nguyen, Yinlin Hu, Yang Xiao, Mathieu Salzmann, Vincent Lepetit
+CVPR 2022
+A method that can recognize objects and estimate their 3D pose in color images even under partial occlusions. Our method requires neither a training phase on these objects nor real images depicting them, only their CAD models.
+[arXiv] [code]   </description>
+    </item>
+    
+  </channel>
+</rss>

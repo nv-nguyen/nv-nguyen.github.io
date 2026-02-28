@@ -1,6 +1,6 @@
 ## Service
 
-Reviewing: CVPR, ICCV, ECCV, NeurIPS, IROS, ICRA, RA-L, TPAMI, 3DV, ACCV, BMVC
+Reviewing: ICRA, IROS, RA-L, TPAMI, CVPR, ICCV, ECCV, NeurIPS, 3DV, ACCV, BMVC
 
 Teaching: Image Processing and Artificial Vision (1st Master level) at ENPC, France in 2021, 2022
 

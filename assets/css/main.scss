@@ -41,6 +41,8 @@
   }
 
   figcaption { color: $--secondary-text-color; }
+
+  .theme-toggle { color: $--primary-text-color; }
 }
 
 
@@ -71,18 +73,12 @@ body[a="light"] { @include light-appearance; }
   top: 1rem;
   right: 1rem;
   z-index: 999;
-  background: none;
-  border: 1px solid #888;
-  border-radius: 50%;
-  width: 32px;
-  height: 32px;
-  font-size: 16px;
+  font-family: monospace;
+  font-size: 12px;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0.7;
+  opacity: 0.5;
   transition: opacity 0.2s;
+  padding: 0.3rem 0.5rem;
   &:hover { opacity: 1; }
 }
 // -------------------------------------------- //

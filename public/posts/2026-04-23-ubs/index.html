@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang=""><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" content="Rong Liu, Zhongpai Gao, Benjamin Planche, Meida Chen, Van Nguyen Nguyen, Meng Zheng, Anwesa Choudhuri, Terrence Chen, Yue Wang, Andrew Feng, Ziyan Wu
+ICLR 2026
+A unified framework that generalizes 3D Gaussian Splatting to N-dimensional anisotropic Beta kernels for explicit radiance field rendering. Beta kernels naturally decompose scene properties into interpretable components (surface vs. texture, diffuse vs. specular, static vs. dynamic) without explicit supervision.
+[arXiv] [project page] [code]    ">  
+
+  <title>
+    
+      Universal Beta Splatting
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" />
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.433d83f74a27edc339f83048b85eb45476f4fbedf08fe58fe4fc516a726fad21ceadf229d96e830b9a1c1d16db27bc9c0a4bcd4f544ff8f2936e154d11ce1420.css" integrity="sha512-Qz2D90on7cM5&#43;DBIuF60VHb0&#43;&#43;3wj&#43;WP5PxRanJvrSHOrfIp2W6DC5ocHRbbJ7ycCkvNT1RP&#43;PKTbhVNEc4UIA==" />
+  
+</head>
+<body a="light">
+        <span id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode"></span>
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+
+<article>
+    <p class="post-meta">
+        <time datetime="2026-04-23 00:00:00 &#43;0000 UTC">
+            2026-04-23
+        </time>
+    </p>
+
+    <h1>Universal Beta Splatting</h1>
+
+    
+
+    <p><a href="https://rongliu-leo.github.io/">Rong Liu</a>, <a href="https://scholar.google.com/citations?user=AFOCPkUAAAAJ">Zhongpai Gao</a>, <a href="https://planche.me/">Benjamin Planche</a>, <a href="https://scholar.google.com/citations?user=ii_J7K4AAAAJ">Meida Chen</a>, <strong>Van Nguyen Nguyen</strong>, <a href="https://scholar.google.com/citations?user=TsgMRsUAAAAJ">Meng Zheng</a>, <a href="https://anwesachoudhuri.github.io/">Anwesa Choudhuri</a>, <a href="https://scholar.google.com/citations?user=PISXgwMAAAAJ">Terrence Chen</a>, <a href="https://yuewang.xyz/">Yue Wang</a>, <a href="https://ict.usc.edu/about-us/leadership/research-leadership/andrew-feng/">Andrew Feng</a>, <a href="https://scholar.google.com/citations?user=1JDFQBUAAAAJ">Ziyan Wu</a></p>
+<p>ICLR 2026</p>
+<p>A unified framework that generalizes 3D Gaussian Splatting to N-dimensional anisotropic Beta kernels for explicit radiance field rendering. Beta kernels naturally decompose scene properties into interpretable components (surface vs. texture, diffuse vs. specular, static vs. dynamic) without explicit supervision.</p>
+<span class="links-line">
+  <a href="https://arxiv.org/pdf/2510.03312">[arXiv]</a>
+  <a href="https://rongliu-leo.github.io/universal-beta-splatting/">[project page]</a>
+  <a href="https://github.com/RongLiu-Leo/universal-beta-splatting">[code]</a>
+  <a href="https://github.com/RongLiu-Leo/universal-beta-splatting/stargazers">
+    <img src="https://img.shields.io/github/stars/RongLiu-Leo/universal-beta-splatting?style=social" alt="GitHub stars">
+  </a>
+  <a href="https://github.com/RongLiu-Leo/universal-beta-splatting/network/members">
+    <img src="https://img.shields.io/github/forks/RongLiu-Leo/universal-beta-splatting?style=social" alt="GitHub forks">
+  </a>
+</span>
+
+</article>
+
+            </div>
+        </main>
+        <script>
+        (function() {
+          var btn = document.getElementById('theme-toggle');
+          var body = document.body;
+
+          function getEffectiveTheme() {
+            var a = body.getAttribute('a');
+            if (a === 'dark' || a === 'light') return a;
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          }
+
+          function updateButton() {
+            btn.textContent = getEffectiveTheme() === 'dark' ? '[light]' : '[dark]';
+          }
+
+          var saved = localStorage.getItem('theme');
+          if (saved) body.setAttribute('a', saved);
+
+          updateButton();
+
+          btn.addEventListener('click', function() {
+            var next = getEffectiveTheme() === 'dark' ? 'light' : 'dark';
+            body.setAttribute('a', next);
+            localStorage.setItem('theme', next);
+            updateButton();
+          });
+        })();
+        </script>
+    </body></html>
