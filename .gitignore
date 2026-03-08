@@ -7,3 +7,6 @@
 _site
 vendor
 Gemfile.lock
+public/
+resources/_gen/
+.claude/

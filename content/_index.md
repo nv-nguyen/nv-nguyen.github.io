@@ -28,7 +28,7 @@ My research focuses on 3D computer vision and robotics.
     <li>02/2026: <a href="https://arxiv.org/pdf/2512.14126">CIF</a> and <a href="https://arxiv.org/pdf/2512.06581">MedGRPO</a> accepted to CVPR 2026.</li>
     <li>01/2026: <a href="https://arxiv.org/pdf/2510.03312">Universal Beta Splatting</a> accepted to ICLR 2026.</li>
     <li>06/2025: Joined <a href="https://www.linkedin.com/company/uii-america-inc/">United Imaging Intelligence</a> in Burlington, MA as a research scientist.</li>
-    <li>06/2025: <a href="https://arxiv.org/pdf/2504.02812">BOP challenge 2024 report</a> received Best Paper Award at CV4MR workshop at CVPR 2025.</li>
+    <li>06/2025: <a href="https://arxiv.org/pdf/2504.02812">BOP challenge 2024 report</a> received CV4MR Best Paper Award at CVPR 2025.</li>
     <li>04/2024: <a href="https://arxiv.org/pdf/2504.02812">BOP challenge 2024 report</a> and <a href="https://arxiv.org/pdf/2506.07155">GoTrack</a> accepted to CV4MR workshop at CVPR 2025.</li>
     <li>12/2024: PhD defended!</li>
     <li>06/2024: <a href="https://bop.felk.cvut.cz/challenges/bop-challenge-2024/">BOP challenge 2024</a> opened!</li>
