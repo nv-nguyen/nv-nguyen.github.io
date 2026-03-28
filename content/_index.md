@@ -5,13 +5,11 @@ img = "/images/nguyen.png"
 draft = false
 +++
 
-I am a Research Scientist at [United Imaging Intelligence (UII America)](https://www.linkedin.com/company/uii-america-inc/) in Greater Boston, MA, USA.
+I am a Research Scientist at [United Imaging Intelligence (UII America)](https://www.linkedin.com/company/uii-america-inc/) in Greater Boston, MA, USA. My research lies at the intersection of 3D computer vision and robotics, with a focus on foundation models for 3D visual perception and multi-modal understanding to facilitate robotics and human modeling.
 
-I completed my PhD at [IMAGINE team](http://imagine.enpc.fr/), [École des Ponts ParisTech](http://www.enpc.fr/), under the supervision of [Prof. Vincent Lepetit](https://vincentlepetit.github.io/). 
+I completed my PhD at [IMAGINE team](http://imagine.enpc.fr/), [École des Ponts ParisTech](http://www.enpc.fr/), under the supervision of [Prof. Vincent Lepetit](https://vincentlepetit.github.io/), where I worked on generalizable 6D pose estimation for novel objects.
 
-My research focuses on 3D computer vision and robotics.
 
-**Our team is always looking for self-motivated research interns. Please drop me a line if you are interested!**
 
 <div class="links-line" style="display: flex; font-size: 18px; gap: 1rem; justify-content: center;">
   <a href="https://scholar.google.com/citations?user=wctJ37UAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
