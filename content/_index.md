@@ -5,7 +5,7 @@ img = "/images/nguyen.png"
 draft = false
 +++
 
-I am a Research Scientist at [United Imaging Intelligence (UII America)](https://www.linkedin.com/company/uii-america-inc/) in Greater Boston, MA, USA. My research lies at the intersection of 3D computer vision and robotics, with a focus on foundation models for 3D visual perception and multi-modal understanding to facilitate robotics and human modeling.
+I am a Research Scientist at [Axon](https://www.axon.com/) in Seattle, where I work on computer vision and vision-language models. Before that, I was a Research Scientist at [UII America Inc.](https://www.linkedin.com/company/uii-america-inc/) in Greater Boston, working on multi-modal foundation models for medical video understanding and 3D/4D scene understanding.
 
 I completed my PhD at [IMAGINE team](http://imagine.enpc.fr/), [École des Ponts ParisTech](http://www.enpc.fr/), under the supervision of [Prof. Vincent Lepetit](https://vincentlepetit.github.io/), where I worked on generalizable 6D pose estimation for novel objects.
 
@@ -15,7 +15,6 @@ I completed my PhD at [IMAGINE team](http://imagine.enpc.fr/), [École des Ponts
   <a href="https://scholar.google.com/citations?user=wctJ37UAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
   <a href="https://www.linkedin.com/in/nv-nguyen/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
   <a href="https://github.com/nv-nguyen" title="GitHub"><i class="fa-brands fa-github"></i></a>
-  <a href="/download/cv_nguyen.pdf" title="CV"><i class="ai ai-cv"></i></a>
 </div>
 
 ---
@@ -23,14 +22,17 @@ I completed my PhD at [IMAGINE team](http://imagine.enpc.fr/), [École des Ponts
 
 <div id="news-container">
   <ul>
+    <li>09/2026: <i>d</i>GS and <a href="https://arxiv.org/abs/2605.08434">AFIL</a> accepted to NeurIPS 2026.</li>
+    <li>07/2026: Joined <a href="https://www.axon.com/">Axon</a> in Seattle as a research scientist.</li>
+    <li>04/2026: Our <a href="https://huggingface.co/datasets/UII-AI/MedVidBench">MedVidBench</a>, a surgical and medical video benchmark for VLMs, is now on HuggingFace.</li>
     <li>02/2026: <a href="https://arxiv.org/pdf/2512.14126">CIF</a> and <a href="https://arxiv.org/pdf/2512.06581">MedGRPO</a> accepted to CVPR 2026.</li>
     <li>01/2026: <a href="https://arxiv.org/pdf/2510.03312">Universal Beta Splatting</a> accepted to ICLR 2026.</li>
-    <li>06/2025: Joined <a href="https://www.linkedin.com/company/uii-america-inc/">United Imaging Intelligence</a> in Burlington, MA as a research scientist.</li>
+    <li>06/2025: Joined <a href="https://www.linkedin.com/company/uii-america-inc/">UII America Inc.</a> in Burlington as a research scientist.</li>
     <li>06/2025: <a href="https://arxiv.org/pdf/2504.02812">BOP challenge 2024 report</a> received CV4MR Best Paper Award at CVPR 2025.</li>
-    <li>04/2024: <a href="https://arxiv.org/pdf/2504.02812">BOP challenge 2024 report</a> and <a href="https://arxiv.org/pdf/2506.07155">GoTrack</a> accepted to CV4MR workshop at CVPR 2025.</li>
+    <li>04/2025: <a href="https://arxiv.org/pdf/2504.02812">BOP challenge 2024 report</a> and <a href="https://arxiv.org/pdf/2506.07155">GoTrack</a> accepted to CV4MR workshop at CVPR 2025.</li>
     <li>12/2024: PhD defended!</li>
-    <li>06/2024: <a href="https://bop.felk.cvut.cz/challenges/bop-challenge-2024/">BOP challenge 2024</a> opened!</li>
-    <li class="older-news" style="display: none;">05/2022: Joined <a href="https://about.facebook.com/realitylabs/">Meta Reality Labs</a> as a research intern with <a href="https://thodan.github.io/">Tomas Hodan</a>.</li>
+    <li>06/2024: Joined <a href="https://about.facebook.com/realitylabs/">Meta Reality Labs</a> as a research intern with <a href="https://thodan.github.io/">Tomas Hodan</a>.</li>
+    <li class="older-news" style="display: none;">06/2024: <a href="https://bop.felk.cvut.cz/challenges/bop-challenge-2024/">BOP challenge 2024</a> opened!</li>
     <li class="older-news" style="display: none;">04/2024: Accepted to <a href="https://cvpr.thecvf.com/Conferences/2024/CallForDoctoralConsortium">CVPR 2024 Doctoral Consortium</a>.</li>
     <li class="older-news" style="display: none;">04/2024: <a href="https://arxiv.org/pdf/2403.09799.pdf">BOP challenge 2023 report</a> accepted to CVPRW 2024.</li>
     <li class="older-news" style="display: none;">02/2024: <a href="https://arxiv.org/pdf/2311.14155">GigaPose</a>, <a href="https://arxiv.org/pdf/2303.13612">NOPE</a>, <a href="https://arxiv.org/pdf/2404.18873">OSV5M</a> accepted to CVPR 2024.</li>
@@ -75,6 +77,42 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 </script>
+
+---
+## Industrial Experience
+
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 12px; flex-wrap: nowrap; margin: 20px 0;">
+  <div style="text-align: center; width: 140px;">
+    <div style="height: 40px; display: flex; align-items: center; justify-content: center;">
+      <img src="/images/axon_logo.svg" alt="Axon" style="height: 22px; object-fit: contain;">
+    </div>
+    <p style="font-size: 12px; margin-top: 8px;">Research Scientist<br>07/2026 – Present</p>
+  </div>
+  <div style="text-align: center; width: 140px;">
+    <div style="height: 40px; display: flex; align-items: center; justify-content: center;">
+      <img src="/images/united_imaging_logo.jpg" alt="United Imaging Intelligence" style="height: 35px; object-fit: contain;">
+    </div>
+    <p style="font-size: 12px; margin-top: 8px;">Research Scientist<br>06/2025 – 07/2026</p>
+  </div>
+  <div style="text-align: center; width: 140px;">
+    <div style="height: 40px; display: flex; align-items: center; justify-content: center;">
+      <img src="/images/meta_logo4.png" alt="Meta" style="height: 30px; object-fit: contain;">
+    </div>
+    <p style="font-size: 12px; margin-top: 8px;">Research Intern<br>06/2024 – 02/2025<br>05/2022 – 10/2022</p>
+  </div>
+  <div style="text-align: center; width: 140px;">
+    <div style="height: 40px; display: flex; align-items: center; justify-content: center;">
+      <img src="/images/siemens_logo.png" alt="Siemens" style="height: 30px; object-fit: contain;">
+    </div>
+    <p style="font-size: 12px; margin-top: 8px;">Research Intern<br>02/2019 – 07/2019</p>
+  </div>
+  <div style="text-align: center; width: 140px;">
+    <div style="height: 40px; display: flex; align-items: center; justify-content: center;">
+      <img src="/images/neogia_icon.png" alt="Neogia" style="height: 28px; object-fit: contain;">
+    </div>
+    <p style="font-size: 12px; margin-top: 8px;">Research Intern<br>07/2018 – 09/2018</p>
+  </div>
+</div>
 
 ---
 ## PhD thesis: Pose Estimation of Novel Rigid Objects
