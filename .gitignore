@@ -10,3 +10,8 @@ Gemfile.lock
 public/
 resources/_gen/
 .claude/
+# CV build outputs (the published PDF lives in static/download/)
+cv/*.pdf
+cv/*.aux
+cv/*.log
+cv/*.out

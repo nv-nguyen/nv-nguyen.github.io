@@ -1,0 +1,239 @@
+% Simplified academic CV
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{fontspec}
+\setmainfont{Montserrat}[Path=fonts/, Extension=.ttf, UprightFont=*-Regular, ItalicFont=*-Italic, BoldFont=*-Bold, BoldItalicFont=*-BoldItalic, Ligatures=TeX]
+\usepackage[left=0.6in, right=0.6in, top=0.65in, bottom=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[normalem]{ulem} % \uline: underline that can break across lines
+\usepackage[hyperfootnotes=false]{hyperref}
+
+% Links: thin black underline in PDF viewers only (not printed)
+\hypersetup{
+  colorlinks=false,
+  pdfborderstyle={/S/U/W 0.6},
+  allbordercolors={0 0 0},
+  pdftitle={CV - Van Nguyen Nguyen},
+  pdfauthor={Van Nguyen Nguyen},
+}
+
+\pagestyle{empty}
+\flushbottom % fill each page to the bottom margin
+\setlength{\parindent}{0pt}
+\linespread{1.02}
+
+\definecolor{oral}{HTML}{1F3FBF}
+\definecolor{award}{HTML}{E0201B}
+
+% ---------- Layout macros ----------
+\newlength{\labelcol}
+% Label column = widest label + a small gap
+% Montserrat has no small caps: use letter-spaced capitals for section labels
+\newcommand{\sublabelfont}{\fontsize{9}{11}\selectfont\itshape}
+\newcommand{\labelfont}{\fontsize{9}{11}\selectfont\addfontfeature{LetterSpace=6}}
+\settowidth{\labelcol}{\labelfont PUBLICATIONS}
+\addtolength{\labelcol}{0.12in}
+
+% A section: small-caps label in the left column, content on the right.
+% Implemented as a list so long sections break across pages.
+% Optional [sub-label] is shown on a second row under the label.
+\newenvironment{cvsection}[2][]{%
+  \begin{list}{}{%
+    \setlength{\leftmargin}{\labelcol}%
+    \setlength{\labelwidth}{\labelcol}%
+    \setlength{\labelsep}{0pt}%
+    \setlength{\itemsep}{0pt}%
+    \setlength{\topsep}{0pt}%
+    \setlength{\parsep}{0pt}%
+  }%
+  \item[{\raisebox{0pt}[0pt][0pt]{\parbox[t]{\labelcol}{\raggedright{\labelfont\MakeUppercase{#2}}\ifx\relax#1\relax\else\\[1pt]{\sublabelfont #1}\fi}}}]%
+}{%
+  \end{list}%
+  \vspace{12pt plus 8pt}%
+}
+
+% \entry{Bold heading, location}{dates}{detail lines separated by \\}
+\newcommand{\entry}[3]{%
+  {#1}\hfill{#2}\\
+  #3\par\vspace{12pt}%
+}
+
+% Own name: plain in first-author papers, underlined in co-author papers
+\newcommand{\me}{Van Nguyen Nguyen}
+\newcommand{\oral}[1]{(\textcolor{oral}{\textbf{#1}})}
+\newcommand{\award}[1]{\mbox{\textcolor{award}{\textbf{#1}}}}
+% \pub{authors}{url}{title}{venue, year and extras}
+% Title and venue first, then authors in smaller type.
+\newcommand{\pub}[4]{%
+  % kept on one page: no page break inside or between title and authors
+  {\raggedright\interlinepenalty=10000 \href{#2}{#3}, #4\par}\nobreak
+  {\fontsize{9}{10.9}\selectfont\interlinepenalty=10000 #1\par}\vspace{4pt plus 4pt}%
+}
+
+% Allow a little extra word spacing instead of overfull lines
+\setlength{\emergencystretch}{2em}
+% Never hyphenate names
+\hyphenation{Lepetit Salzmann Nguyen Groueix Hodan Planche Choudhuri}
+
+\begin{document}
+\fontsize{10}{12.4}\selectfont
+
+% ---------- Header ----------
+{\fontsize{20}{24}\selectfont\bfseries Van Nguyen Nguyen}\par
+\vspace{2pt}\hrule\vspace{3pt}
+{\small
+\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}l@{}}
+  \textit{Website}: \href{https://nv-nguyen.github.io/}{https://nv-nguyen.github.io} &
+  \textit{Email}: \href{mailto:vanngn.nguyen@gmail.com}{vanngn.nguyen@gmail.com} \\
+  \textit{GitHub}: \href{https://github.com/nv-nguyen}{https://github.com/nv-nguyen} &
+  \textit{LinkedIn}: \href{https://www.linkedin.com/in/nv-nguyen/}{https://linkedin.com/in/nv-nguyen} \\
+\end{tabular*}}
+\vspace{12pt}
+
+% ---------- Experience ----------
+\begin{cvsection}{Experience}
+\entry{\textbf{Axon Enterprise}, Seattle, WA, USA}{Jul 2026 -- Now}{%
+  \textit{Research Scientist}\\
+  Working on computer vision and vision-language models}
+
+\entry{\textbf{United Imaging Intelligence}, Greater Boston, USA}{Jun 2025 -- Jul 2026}{%
+  \textit{Research Scientist}\\
+  Worked on 3D perception and multi-modal understanding}
+
+\entry{\textbf{Meta Reality Labs}, Zurich, Switzerland}{Jun 2024 -- Feb 2025}{%
+  \textit{Research Intern}\\
+  Worked on generic 6D object tracking with Tomas Hodan}
+
+\entry{\textbf{Meta Reality Labs}, Redmond, WA, USA}{May 2022 -- Oct 2022}{%
+  \textit{Research Intern}\\
+  Worked on 3D object detection on \href{https://about.meta.com/en/realitylabs/projectaria/}{Project Aria} with Pierre Moulon}
+
+\entry{\textbf{Siemens Mobility}, Greater Paris, France}{Feb 2019 -- Jul 2019}{%
+  \textit{Research Intern}\\
+  Worked on robust lane detection for self-driving vehicle with Karim Berkani}
+
+\entry{\textbf{Neogia}, Paris, France}{Jul 2018 -- Sep 2018}{%
+  \textit{Research Intern}\\
+  Worked on 3D face reconstruction from a single image with Mathieu Bouyrie}
+\end{cvsection}
+
+% ---------- Education ----------
+\begin{cvsection}{Education}
+\entry{\textbf{\'Ecole des Ponts ParisTech}, Greater Paris, France}{Oct 2020 -- Dec 2024}{%
+  \textit{Ph.D. in Computer Vision, advised by \href{https://vincentlepetit.github.io/}{Prof. Vincent Lepetit}}\\
+  PhD thesis: Pose Estimation of Novel Rigid Objects\\
+  Visiting: Kyoto University (Mar--Apr 2024, with Prof. Ko Nishino)\hfill\textit{Kyoto, Japan}\\
+  \phantom{Visiting: }EPFL (Jul--Aug 2021, with Mathieu Salzmann)\hfill\textit{Lausanne, Switzerland}}
+
+\entry{\textbf{\'Ecole Normale Sup\'erieure Paris-Saclay}, Greater Paris, France}{Sep 2019 -- Sep 2020}{%
+  \textit{Master of Science in Mathematics, Vision, Learning (\href{https://www.master-mva.com/}{MVA})}\\
+  Master thesis: Single view 3D scene reconstruction with Mathieu Aubry and Prof. Vincent Lepetit\\
+  Graduated with first-class honors (Mention ``Tr\`es bien'')}
+
+\entry{\textbf{INSA Toulouse}}{Sep 2014 -- Sep 2019}{%
+  \textit{Master of Engineering in Applied Mathematics}\\
+  Major in Data Science (2016-2019)\hfill\textit{Toulouse, France}\\
+  Advanced Engineering Program in Mathematics \& Physics (2014-2016)\hfill\textit{Hue, Vietnam}}
+\end{cvsection}
+
+% ---------- Publications ----------
+\begin{cvsection}[First-author]{Publications}
+% First-author papers
+\pub{\me, Christian Forster, Sindi Shkodrani, Bugra Tekin, Cem Keskin, Tomas Hodan}
+  {https://arxiv.org/abs/2506.07155}
+  {GoTrack: Generic 6DoF Object Pose Refinement and Tracking}
+  {\textbf{\mbox{CVPRW~2025}}}
+
+\pub{\me, Stephen Tyree, Andrew Guo, Mederic Fourmy, Anas Gouda, Taeyeop Lee, Sungphill Moon, Hyeontae Son, Lukas Ranftl, Jonathan Tremblay, Eric Brachmann, Bertram Drost, Vincent Lepetit, Carsten Rother, Stan Birchfield, Jiri Matas, Yann Labbe, Martin Sundermeyer, Tomas Hodan}
+  {https://arxiv.org/abs/2504.02812}
+  {BOP Challenge 2024 on Model-free, Model-based Detection, and Pose Estimation of Unseen Rigid Objects}
+  {\textbf{\mbox{CVPRW~2025}}, \award{Best Paper Award}}
+
+\pub{\me, Thibault Groueix, Mathieu Salzmann, Vincent Lepetit}
+  {https://arxiv.org/abs/2311.14155}
+  {GigaPose: Fast and Robust Novel Object Pose Estimation via One Correspondence}
+  {\textbf{\mbox{CVPR~2024}}}
+
+\pub{\me, Thibault Groueix, Georgy Ponimatkin, Yinlin Hu, Renaud Marlet, Mathieu Salzmann, Vincent Lepetit}
+  {https://arxiv.org/abs/2303.13612}
+  {NOPE: Novel Object Pose Estimation from a Single Image}
+  {\textbf{\mbox{CVPR~2024}}}
+
+\pub{\me, Thibault Groueix, Vincent Lepetit, Tomas Hodan}
+  {https://arxiv.org/abs/2307.11067}
+  {CNOS: A Strong Baseline for CAD-based Novel Object Segmentation}
+  {\textbf{\mbox{ICCVW~2023}}, \award{Best Method Award}}
+
+\pub{\me$^*$, Yuming Du$^*$, Yang Xiao, Micha\"el Ramamonjisoa, Vincent Lepetit}
+  {https://arxiv.org/abs/2209.07589}
+  {PIZZA: A Powerful Image-only Zero-Shot Zero-CAD Approach to 6DoF Tracking}
+  {\textbf{\mbox{3DV~2022~(Oral)}}}
+
+\pub{\me, Yinlin Hu, Yang Xiao, Mathieu Salzmann, Vincent Lepetit}
+  {https://arxiv.org/abs/2203.17234}
+  {Templates for 3D Object Pose Estimation Revisited: Generalization to New Objects and Robustness to Occlusions}
+  {\textbf{\mbox{CVPR~2022}}}
+
+\end{cvsection}
+
+\begin{cvsection}[Co-author]{Publications}
+\renewcommand{\me}{\uline{Van Nguyen Nguyen}}
+% Co-author papers
+\pub{Meng Zheng, Samhita Marri, Anwesa Choudhuri, Benjamin Planche, Zhongpai Gao, \me, Terrence Chen, Girish Chowdhary, Ziyan Wu}
+  {https://arxiv.org/abs/2605.08434}
+  {Failing Forward: Adaptive Failure-Informed Learning for Vision-Language-Action Models}
+  {\textbf{\mbox{NeurIPS~2026}}}
+
+\pub{Zhongpai Gao, Benjamin Planche, \me, Meng Zheng, Anwesa Choudhuri, Arun Innanje, Terrence Chen, Ziyan Wu}
+  {https://arxiv.org/abs/2610.22778}
+  {Direct Conditional Parameterization for N-Dimensional Splatting}
+  {\textbf{\mbox{NeurIPS~2026}}}
+
+\pub{Zhongpai Gao, Benjamin Planche, Meng Zheng, Anwesa Choudhuri, \me, Terrence Chen, Ziyan Wu}
+  {https://arxiv.org/abs/2505.17338}
+  {Render-FM: Feedforward Model for Real-time Photorealistic Volumetric Rendering}
+  {\textbf{\mbox{ECCV~2026}}}
+
+\pub{Junyi Wu, \me, Benjamin Planche, Jiachen Tao, Changchang Sun, Zhongpai Gao, Zhenghao Zhao, Anwesa Choudhuri, Gengyu Zhang, Meng Zheng, Feiran Wang, Terrence Chen, Yan Yan, Ziyan Wu}
+  {https://arxiv.org/abs/2512.14126}
+  {CIF: Consistent Instance Field for Dynamic Scene Understanding}
+  {\textbf{\mbox{CVPR~2026}}}
+
+\pub{Yuhao Su, Anwesa Choudhuri, Zhongpai Gao, Benjamin Planche, \me, Meng Zheng, Yuhan Shen, Arun Innanje, Terrence Chen, Ehsan Elhamifar, Ziyan Wu}
+  {https://arxiv.org/abs/2512.06581}
+  {MedGRPO: Multi-Task Reinforcement Learning for Heterogeneous Medical Video Understanding}
+  {\textbf{\mbox{CVPR~2026}}}
+
+\pub{Rong Liu, Zhongpai Gao, Benjamin Planche, Meida Chen, \me, Meng Zheng, Anwesa Choudhuri, Terrence Chen, Yue Wang, Andrew Feng, Ziyan Wu}
+  {https://arxiv.org/abs/2510.03312}
+  {Universal Beta Splatting}
+  {\textbf{\mbox{ICLR~2026}}}
+
+\pub{Guillaume Astruc, Nicolas Dufour, Ioannis Siglidis, Constantin Aronssohn, Nacim Bouia, Stephanie Fu, Romain Loiseau, \me, Charles Raude, Elliot Vincent, Lintao Xu, Hongyu Zhou, Loic Landrieu}
+  {https://arxiv.org/abs/2404.18873}
+  {OpenStreetView-5M: The Many Roads to Global Visual Geolocation}
+  {\textbf{\mbox{CVPR~2024}}}
+
+\pub{Tomas Hodan, Martin Sundermeyer, Yann Labbe, \me, Gu Wang, Eric Brachmann, Bertram Drost, Vincent Lepetit, Carsten Rother, Jiri Matas}
+  {https://arxiv.org/abs/2403.09799}
+  {BOP Challenge 2023 on Detection, Segmentation and Pose Estimation of Seen and Unseen Rigid Objects}
+  {\textbf{\mbox{CVPRW~2024}}}
+\end{cvsection}
+
+% ---------- Services ----------
+\begin{cvsection}{Services}
+\textbf{Reviewing}: CVPR, ICCV, ECCV, NeurIPS, ICRA, IROS, RA-L, 3DV, ACCV, BMVC, TPAMI\par\vspace{4pt}
+\textbf{Teaching}: Image Processing and Artificial Vision at ENPC, France in 2021, 2022\par\vspace{4pt}
+\textbf{Workshops}: MedVidU (\href{https://medvidu.github.io/}{ECCV 2026}), R6D (\href{https://cmp.felk.cvut.cz/sixd/workshop_2024/}{ECCV 2024})\par\vspace{4pt}
+\textbf{Challenges}: BOP Challenges (\href{https://bop.felk.cvut.cz/challenges/bop-challenge-2025/}{2025}, \href{https://bop.felk.cvut.cz/challenges/bop-challenge-2024/}{2024}, \href{https://bop.felk.cvut.cz/challenges/bop-challenge-2023/}{2023})
+\end{cvsection}
+
+% ---------- References ----------
+\begin{cvsection}{References}
+Available upon request.
+\end{cvsection}
+
+% Cancel the final page filler so the last page is also spread to the bottom margin
+\vskip 0pt plus -1fil
+\end{document}
