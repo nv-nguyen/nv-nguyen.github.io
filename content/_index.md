@@ -22,8 +22,9 @@ I completed my PhD at [IMAGINE team](http://imagine.enpc.fr/), [École des Ponts
 
 <div id="news-container">
   <ul>
-    <li>09/2026: <i>d</i>GS and <a href="https://arxiv.org/abs/2605.08434">AFIL</a> accepted to NeurIPS 2026.</li>
+    <li>09/2026: <a href="https://arxiv.org/abs/2610.22778"><i>d</i>GS</a> and <a href="https://arxiv.org/abs/2605.08434">AFIL</a> accepted to NeurIPS 2026.</li>
     <li>07/2026: Joined <a href="https://www.axon.com/">Axon</a> in Seattle as a research scientist.</li>
+    <li>06/2026: <a href="https://gaozhongpai.github.io/renderfm/">Render-FM</a> accepted to ECCV 2026.</li>
     <li>04/2026: Our <a href="https://huggingface.co/datasets/UII-AI/MedVidBench">MedVidBench</a>, a surgical and medical video benchmark for VLMs, is now on HuggingFace.</li>
     <li>02/2026: <a href="https://arxiv.org/pdf/2512.14126">CIF</a> and <a href="https://arxiv.org/pdf/2512.06581">MedGRPO</a> accepted to CVPR 2026.</li>
     <li>01/2026: <a href="https://arxiv.org/pdf/2510.03312">Universal Beta Splatting</a> accepted to ICLR 2026.</li>
@@ -77,42 +78,6 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 </script>
-
----
-## Industrial Experience
-
-<div style="display: flex; justify-content: center; align-items: flex-start; gap: 12px; flex-wrap: nowrap; margin: 20px 0;">
-  <div style="text-align: center; width: 140px;">
-    <div style="height: 40px; display: flex; align-items: center; justify-content: center;">
-      <img src="/images/axon_logo.svg" alt="Axon" style="height: 22px; object-fit: contain;">
-    </div>
-    <p style="font-size: 12px; margin-top: 8px;">Research Scientist<br>07/2026 – Present</p>
-  </div>
-  <div style="text-align: center; width: 140px;">
-    <div style="height: 40px; display: flex; align-items: center; justify-content: center;">
-      <img src="/images/united_imaging_logo.jpg" alt="United Imaging Intelligence" style="height: 35px; object-fit: contain;">
-    </div>
-    <p style="font-size: 12px; margin-top: 8px;">Research Scientist<br>06/2025 – 07/2026</p>
-  </div>
-  <div style="text-align: center; width: 140px;">
-    <div style="height: 40px; display: flex; align-items: center; justify-content: center;">
-      <img src="/images/meta_logo4.png" alt="Meta" style="height: 30px; object-fit: contain;">
-    </div>
-    <p style="font-size: 12px; margin-top: 8px;">Research Intern<br>06/2024 – 02/2025<br>05/2022 – 10/2022</p>
-  </div>
-  <div style="text-align: center; width: 140px;">
-    <div style="height: 40px; display: flex; align-items: center; justify-content: center;">
-      <img src="/images/siemens_logo.png" alt="Siemens" style="height: 30px; object-fit: contain;">
-    </div>
-    <p style="font-size: 12px; margin-top: 8px;">Research Intern<br>02/2019 – 07/2019</p>
-  </div>
-  <div style="text-align: center; width: 140px;">
-    <div style="height: 40px; display: flex; align-items: center; justify-content: center;">
-      <img src="/images/neogia_icon.png" alt="Neogia" style="height: 28px; object-fit: contain;">
-    </div>
-    <p style="font-size: 12px; margin-top: 8px;">Research Intern<br>07/2018 – 09/2018</p>
-  </div>
-</div>
 
 ---
 ## PhD thesis: Pose Estimation of Novel Rigid Objects
