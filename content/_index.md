@@ -15,7 +15,6 @@ I completed my PhD at [IMAGINE team](http://imagine.enpc.fr/), [École des Ponts
   <a href="https://scholar.google.com/citations?user=wctJ37UAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
   <a href="https://www.linkedin.com/in/nv-nguyen/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
   <a href="https://github.com/nv-nguyen" title="GitHub"><i class="fa-brands fa-github"></i></a>
-  <a href="/download/cv_nguyen.pdf" title="CV"><i class="ai ai-cv"></i></a>
 </div>
 
 ---
